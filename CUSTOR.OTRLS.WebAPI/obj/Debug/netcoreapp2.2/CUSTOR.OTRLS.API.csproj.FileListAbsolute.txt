@@ -1,0 +1,17 @@
+C:\Projects\OTRLS2019\OTRLSV1\CUSTOR.OTRLS.WebAPI\bin\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.deps.json
+C:\Projects\OTRLS2019\OTRLSV1\CUSTOR.OTRLS.WebAPI\bin\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.runtimeconfig.json
+C:\Projects\OTRLS2019\OTRLSV1\CUSTOR.OTRLS.WebAPI\bin\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.runtimeconfig.dev.json
+C:\Projects\OTRLS2019\OTRLSV1\CUSTOR.OTRLS.WebAPI\bin\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.dll
+C:\Projects\OTRLS2019\OTRLSV1\CUSTOR.OTRLS.WebAPI\bin\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.pdb
+C:\Projects\OTRLS2019\OTRLSV1\CUSTOR.OTRLS.WebAPI\obj\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.csprojAssemblyReference.cache
+C:\Projects\OTRLS2019\OTRLSV1\CUSTOR.OTRLS.WebAPI\obj\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.csproj.CoreCompileInputs.cache
+C:\Projects\OTRLS2019\OTRLSV1\CUSTOR.OTRLS.WebAPI\obj\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.RazorAssemblyInfo.cache
+C:\Projects\OTRLS2019\OTRLSV1\CUSTOR.OTRLS.WebAPI\obj\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.RazorAssemblyInfo.cs
+C:\Projects\OTRLS2019\OTRLSV1\CUSTOR.OTRLS.WebAPI\obj\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.AssemblyInfoInputs.cache
+C:\Projects\OTRLS2019\OTRLSV1\CUSTOR.OTRLS.WebAPI\obj\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.AssemblyInfo.cs
+C:\Projects\OTRLS2019\OTRLSV1\CUSTOR.OTRLS.WebAPI\obj\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.RazorTargetAssemblyInfo.cache
+C:\Projects\OTRLS2019\OTRLSV1\CUSTOR.OTRLS.WebAPI\obj\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.dll
+C:\Projects\OTRLS2019\OTRLSV1\CUSTOR.OTRLS.WebAPI\obj\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.pdb
+C:\Projects\OTRLS2019\OTRLSV1\CUSTOR.OTRLS.WebAPI\bin\Debug\netcoreapp2.2\CUSTOR.OTRLS.Core.dll
+C:\Projects\OTRLS2019\OTRLSV1\CUSTOR.OTRLS.WebAPI\bin\Debug\netcoreapp2.2\CUSTOR.OTRLS.Core.pdb
+C:\Projects\OTRLS2019\OTRLSV1\CUSTOR.OTRLS.WebAPI\obj\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.csproj.CopyComplete

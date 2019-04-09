@@ -1,0 +1,37 @@
+<div>
+<mat-toolbar class="landing-toolbar mat-elevation-z4" color="primary">
+        <div fxLayout="row" fxLayoutAlign="center center" fxFlex>
+            <div fxLayout="row" fxLayoutAlign="center center">               
+                <a routerLink="/" fxLayout="row" fxLayoutAlign="center center" class="logo">
+                    <span class="mx-2"><h1 style="font-weight:bolder">ንግድና ኢንዱስትሪ ሚኒስቴር</h1></span>
+                    <img src=".././../assets/image/Federal.png" alt="logo">
+                    <span class="mx-2"><h3 style="font-size:16px">Ministry of Trade and Industry</h3></span> 
+                </a>
+            </div> 
+            
+        </div>
+</mat-toolbar>
+<mat-drawer-container class="landing-container w-100 h-100">     
+    <mat-drawer-content>
+        <app-content-header id="home"
+            [icon]="''" 
+            [title]="'Online Trade Registration and Licensing (OTRLS)'"
+            [desc]="' The Ministry of Trade and Industry is pleased to introduce online services in order to make its services easily accessible to its customers'" 
+            [hasBgImage]="true" 
+            [class]="'py-5 px-2'">
+        </app-content-header>        
+        
+        <div class="p-2">
+           <app-actions></app-actions>
+           <app-our-services></app-our-services>
+        </div> 
+       
+    </mat-drawer-content>
+</mat-drawer-container>
+</div>
+<mat-toolbar color="primary" class="landing-footer mt-5">
+    <div fxLayout.xs="column" fxLayout.gt-xs="row wrap" fxLayoutAlign="space-between center" class="w-100">
+        <span>Copyright ©2019. All Rights Reserved. </span>
+        <span> MOTI</span>
+    </div>
+</mat-toolbar>

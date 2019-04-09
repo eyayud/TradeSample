@@ -1,0 +1,27 @@
+@import '../node_modules/@angular/material/theming';
+@import '~ngx-toastr/toastr.css';
+@import "./@custor/styles/spaces";
+@import "./@custor/styles/base";
+@include mat-core();
+
+$primary: mat-palette($mat-teal, 700, 50, 800);
+$accent: mat-palette($mat-deep-orange, 600, A400, 900);
+$warn: mat-palette($mat-red, 600);
+
+$theme: mat-light-theme($primary, $accent, $warn);
+
+@include angular-material-theme($theme);
+
+.bg-primary {
+    @include _mat-toolbar-color($primary);
+}
+
+.primary-color{
+    color: mat-color($primary) !important;
+}
+.accent-color{
+    color: mat-color($accent) !important;
+}
+.warn-color{
+    color: mat-color($warn) !important;
+}

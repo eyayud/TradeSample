@@ -181,7 +181,6 @@ ClientBin/
 *.publishsettings
 orleans.codegen.cs
 
-/node_modules
 
 # RIA/Silverlight projects
 Generated_Code/
@@ -231,4 +230,4 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
-
+CUSTOR.OTRLS.WEB/node_modules

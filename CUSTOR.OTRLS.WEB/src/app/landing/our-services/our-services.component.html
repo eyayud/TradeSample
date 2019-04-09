@@ -1,0 +1,23 @@
+<div id="custService" class="mt-2 pt-3">
+  <div fxLayout="column" fxLayoutAlign="center center" class="title-section p-2 mb-2">  
+      <h1>Our Services</h1>             
+      <p class="secondary-text-color">Click on each service link to find more information.</p>
+  </div>
+  <div fxLayout="row wrap" fxLayoutAlign="center left">        
+      <div fxFlex="100">
+          <div fxLayout="row wrap" fxLayoutAlign="left left">
+              <div *ngFor="let customerService of services" fxFlex="100" fxFlex.gt-md="25" fxFlex.md="33.3" fxFlex.sm="50" class="p-2">
+                  <mat-card fxLayout="column" fxLayoutAlign="center center" class="w-100">            
+                      <mat-icon class="mat-icon-xlg accent-color">important_devices</mat-icon>
+                      <a  class="pointer" (click)="goServiceDetail(customerService.Title, customerService.Id)">
+                          <h3>{{customerService.Title}}</h3>
+                      </a>
+                      <p class="text-left secondary-text-color">
+                          {{customerService.Desc}}
+                      </p>           
+                  </mat-card>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>

@@ -32,7 +32,7 @@ namespace CUSTOR.OTRLS.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-
+            //Aklile
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddMvc(options =>
             {

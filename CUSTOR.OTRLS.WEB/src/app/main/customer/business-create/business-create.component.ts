@@ -61,7 +61,7 @@ export class BusinessCreateComponent implements OnInit {
   getSections(id){
     this.apiService.getSectionList(id).subscribe(res=>{
       console.log(res);
-       //patch response to sub sector form controller
+       //patch response to sub secttion form controller
     this.licenseRegistrationForm.patchValue({'sections':res});
     })
   }
@@ -69,7 +69,7 @@ export class BusinessCreateComponent implements OnInit {
   getSubSections(id){
     this.apiService.getSubSectorList(id).subscribe(res=>{
       console.log(res);
-       //patch response to sub sector form controller
+       //patch response to sub section form controller
     this.licenseRegistrationForm.patchValue({'subSections':res});
     })
   }

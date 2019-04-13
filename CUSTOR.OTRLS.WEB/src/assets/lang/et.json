@@ -114,7 +114,7 @@
     "projectDetail": "Project Detail",
     "customerRegistration": "Customer Registration",
     "applicationList": "All Application List",
-    "businessLicense": "Business License Registration"
+    "businessLicense": "አዲስ ንግድ ፍቃድ ምዝገባ"
   },
   "investors": {
     "management": {
@@ -417,7 +417,7 @@
     "DescriptionEnglishAlias": "መግለጫ በእንግሊዘኛ በአጭሩ",
     "EconomicSectorCode": "ኢኮኖሚክ ሴክተር ኮድ"
   },
-  "subbsector": {
+  "subsector": {
     "sector": "ዘረፍ",
     "header": "ዋና ዘረፍ",
     "Description": "መግለጫ",
@@ -502,6 +502,9 @@
   "letterTemplate": {
     "Header": "Letter Template",
     "LetterType": "Letter Type"
+  },
+  "subTitle":{
+    "fillInformation":"መረጃ መሙያ "
   }
 }
 

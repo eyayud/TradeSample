@@ -15,18 +15,40 @@
             <mat-label>{{'registration.editor.CompanyNameAmharic' | translate}}</mat-label>
 
             <input formControlName="companyNameAmharic" matInput type="text" placeholder="">
+
+            <mat-error *ngIf="!companyNameAmharic.hasError('required') && !companyNameAmharic.hasError('minlength')
+                                                && companyNameAmharic.hasError('pattern')">
+              {{'common.validation.UseEthiopicOnly' | translate}}
+            </mat-error>
+
+            <mat-error *ngIf="!companyNameAmharic.hasError('required') && companyNameAmharic.hasError('minlength')">
+              {{'common.validation.MinLengthChar' | translate: {'min':'3'} }}
+            </mat-error>
           </mat-form-field>
 
           <mat-form-field fxFlex>
             <mat-label>{{'registration.editor.CompanyNameEnglish' | translate}}</mat-label>
 
             <input formControlName="companyNameEnglish" matInput type="text" placeholder="">
+            <mat-error *ngIf="!companyNameEnglish.hasError('required') && !companyNameEnglish.hasError('minlength')
+                                                && companyNameEnglish.hasError('pattern')">
+              {{'common.validation.UseLatinOnly' | translate}}
+            </mat-error>
+
+            <mat-error *ngIf="!companyNameEnglish.hasError('required') && companyNameEnglish.hasError('minlength')">
+              {{'common.validation.MinLengthChar' | translate: {'min':'3'} }}
+            </mat-error>
           </mat-form-field>
 
           <mat-form-field fxFlex>
             <mat-label>{{'registration.editor.CompanyNameRegional' | translate}}</mat-label>
 
             <input formControlName="companyNameRegional" matInput type="text" placeholder="">
+
+
+            <mat-error *ngIf="!companyNameRegional.hasError('required') && companyNameRegional.hasError('minlength')">
+              {{'common.validation.MinLengthChar' | translate: {'min':'3'} }}
+            </mat-error>
           </mat-form-field>
 
 
@@ -37,8 +59,15 @@
         <div fxLayout="row" class="input-row mt-3">
 
           <mat-form-field fxFlex=30>
-            <mat-label>{{'investors.editor.SighnedCapital' | translate}}</mat-label>
+            <mat-label>{{'investors.editor.SignedCapital' | translate}}</mat-label>
             <input formControlName="signedCapital" matInput type="text" placeholder="">
+            <mat-error *ngIf="!signedCapital.hasError('required') && !signedCapital.hasError('minlength')
+                                                && signedCapital.hasError('pattern')">
+              {{'common.validation.NumberOnly' | translate}}
+            </mat-error>
+            <mat-error *ngIf="!signedCapital.hasError('required') && signedCapital.hasError('minlength')">
+              {{'common.validation.MinLengthChar' | translate: {'min':'2'} }}
+            </mat-error>
           </mat-form-field>
 
 
@@ -48,18 +77,18 @@
 
           <mat-form-field fxFlex>
             <mat-label>{{'sector.header'| translate}}</mat-label>
-            <mat-select formControlName="sector" (change)="getSubSector()">
-              <mat-option *ngFor="let sector of sectors" [value]="sector.value">
-                {{sector.viewValue}}
+            <mat-select formControlName="sector" (selectionChange)="getSubSectors($event)">
+              <mat-option *ngFor="let sector of sectorsList" [value]="sector.id">
+                {{sector.name}}
               </mat-option>
             </mat-select>
           </mat-form-field>
 
           <mat-form-field fxFlex>
             <mat-label>{{'subsector.header'| translate}}</mat-label>
-            <mat-select formControlName="subSectors" (change)="getSubSector()">
-              <mat-option *ngFor="let mainSection of subSections" [value]="sector.value">
-                {{mainSection.viewValue}}
+            <mat-select formControlName="subSectors" (selectionChange)="getSections($event)">
+              <mat-option *ngFor="let subSector of subSectorsList" [value]="subSector.id">
+                {{subSector.name}}
               </mat-option>
             </mat-select>
           </mat-form-field>
@@ -67,20 +96,20 @@
 
         <div class="input-row mt-6" fxLayout="row" fxLayout.lt-md="column" fxLayoutGap="20px" fxLayoutGap.lt-md="0px">
           <mat-form-field fxFlex>
-            <mat-label>Section</mat-label>
-            <mat-select formControlName="sections">
-              <mat-option *ngFor="let section of sections" [value]="section.value">
-                {{section.viewValue}}
+            <mat-label>{{'section.header'| translate}}</mat-label>
+            <mat-select formControlName="sections"  (selectionChange)="getSubSections($event)">
+              <mat-option *ngFor="let section of sectionsList" [value]="section.id">
+                {{section.name}}
               </mat-option>
             </mat-select>
           </mat-form-field>
 
 
           <mat-form-field fxFlex>
-            <mat-label>Sector</mat-label>
-            <mat-select formControlName="subSections">
-              <mat-option *ngFor="let subSection of subSections" [value]="subSection.value">
-                {{subSection.viewValue}}
+            <mat-label>{{'subsection.header'| translate}}</mat-label>
+            <mat-select formControlName="subSections" (selectionChange)="getClassificationLens($event)">
+              <mat-option *ngFor="let subSection of subSectionsList" [value]="subSection.id">
+                {{subSection.name}}
               </mat-option>
             </mat-select>
           </mat-form-field>
@@ -91,9 +120,9 @@
 
 
 
-        <div fxLayout="row" class="mt-1">
-          <label class="mr-2">Classification lens</label>
-          <mat-checkbox> </mat-checkbox>
+        <div fxLayout="row" class="mt-1" *ngIf="classificationLensLabel">
+          <label class="mr-2">{{'classificationLens.header'| translate}}</label>
+          <mat-checkbox (change)="selectClassification($event)" > {{classificationLensLabel}}</mat-checkbox>
         </div>
 
 
@@ -103,7 +132,7 @@
         <mat-divider></mat-divider>
         <div fxLayout="row" fxLayoutAlign="end" class="mt-3">
           <button mat-raised-button color="warn">CANCLE</button>
-          <button type="submit"  mat-raised-button color="primary">SAVE</button>
+          <button [disabled]="licenseRegistrationForm.invalid" type="submit"  mat-raised-button color="primary">SAVE</button>
         </div>
 
 

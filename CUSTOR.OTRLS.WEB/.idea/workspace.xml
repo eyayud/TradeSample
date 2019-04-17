@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd335de8-4de6-4cf8-ab74-87ffb4922995" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../CUSTOR.OTRLS.DAL/obj/Debug/netcoreapp2.2/CUSTOR.OTRLS.Core.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CUSTOR.OTRLS.DAL/obj/Debug/netcoreapp2.2/CUSTOR.OTRLS.Core.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/main/customer/business-create/business-create.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/main/customer/business-create/business-create.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/main/customer/business-create/business-create.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/main/customer/business-create/business-create.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/main/customer/services/business.api.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/main/customer/services/business.api.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/main/main.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/main/main.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/main/main.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/main/main.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/lang/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/lang/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/lang/et.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/lang/et.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/dummySectors.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/dummySectors.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CUSTOR.OTRLS.WebAPI/obj/Debug/netcoreapp2.2/CUSTOR.OTRLS.API.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CUSTOR.OTRLS.WebAPI/obj/Debug/netcoreapp2.2/CUSTOR.OTRLS.API.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CUSTOR.OTRLS.WebAPI/wwwroot/photo/Mgr11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../CUSTOR.OTRLS.WebAPI/wwwroot/photo/Mgr11.jpg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,20 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/lang/et.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="441" column="21" selection-start-line="441" selection-start-column="3" selection-end-line="441" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/main/customer/business-create/business-create.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="814">
-              <caret line="260" column="30" selection-start-line="260" selection-start-column="30" selection-end-line="260" selection-end-column="30" />
+            <state relative-caret-position="216">
+              <caret line="246" column="33" selection-start-line="246" selection-start-column="33" selection-end-line="246" selection-end-column="33" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
               </folding>
@@ -47,50 +33,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/@custor/helpers/compare.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="5" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/main/customer/business-create/business-create.component.scss">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/common/constants/consts.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assets/dummySectors.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="886">
-              <caret line="66" column="21" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="21" />
+            <state relative-caret-position="796">
+              <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/main/customer/services/business.api.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1008">
-              <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/main/customer/models/manager.model.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/main/customer/manager-list/manager-list.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#74#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/main/customer/business-create/business-create.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="670">
-              <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
+            <state relative-caret-position="678">
+              <caret line="116" column="77" selection-start-line="116" selection-start-column="77" selection-end-line="116" selection-end-column="77" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/main/customer/manager-list/manager-list.component.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -107,8 +92,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/main/customer/manager/manager.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3732">
-              <caret line="256" column="26" lean-forward="true" selection-start-line="256" selection-start-column="26" selection-end-line="256" selection-end-column="26" />
+            <state relative-caret-position="454">
+              <caret line="192" column="80" selection-start-line="192" selection-start-column="80" selection-end-line="192" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -116,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/main/customer/manager/manager.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1152">
-              <caret line="71" column="43" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="43" />
+            <state relative-caret-position="-2429">
+              <caret line="60" column="2" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -147,6 +132,9 @@
       <find>ፍቃድ ፈርጅ</find>
       <find>getSubSector</find>
       <find>Lense</find>
+      <find>subSectorsList</find>
+      <find>filter</find>
+      <find>conso</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src</dir>
@@ -167,17 +155,17 @@
         <option value="$PROJECT_DIR$/src/@custor/components/progress-bar/progress-bar.component.html" />
         <option value="$PROJECT_DIR$/src/app/main/customer/business-create/dummySectors.json" />
         <option value="$PROJECT_DIR$/src/app/main/customer/services/business.api.service.ts" />
+        <option value="$PROJECT_DIR$/src/app/main/customer/business-create/business-create.component.html" />
         <option value="$PROJECT_DIR$/src/assets/dummySectors.json" />
         <option value="$PROJECT_DIR$/src/app/main/customer/business-create/business-create.component.ts" />
-        <option value="$PROJECT_DIR$/src/app/main/customer/business-create/business-create.component.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="118" />
     <option name="y" value="35" />
-    <option name="width" value="2196" />
-    <option name="height" value="2121" />
+    <option name="width" value="1861" />
+    <option name="height" value="2125" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -234,6 +222,13 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="progress-bar" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CUSTOR.OTRLS.WEB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CUSTOR.OTRLS.WEB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="@custor" type="462c0819:PsiDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CUSTOR.OTRLS.WEB" type="b2602c69:ProjectViewProjectNode" />
@@ -320,9 +315,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/@custor/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Angular-Redux" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -400,17 +396,19 @@
       <workItem from="1555393135021" duration="1346000" />
       <workItem from="1555399451244" duration="1745000" />
       <workItem from="1555413010129" duration="4599000" />
-      <workItem from="1555420615764" duration="19196000" />
+      <workItem from="1555420615764" duration="19351000" />
+      <workItem from="1555479955518" duration="6982000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27219000" />
+    <option name="totallyTimeSpent" value="34356000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="118" y="35" width="3722" height="2125" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14359532" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14359532" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -424,7 +422,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32956383" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32956383" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -449,29 +447,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/@custor/validators/inputLanguage.validator.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="2" column="82" lean-forward="true" selection-start-line="2" selection-start-column="82" selection-end-line="2" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/@custor/validators/equal.validator.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/@custor/validators/inputLanguage.validator.ts" />
     <entry file="file://$PROJECT_DIR$/src/@custor/validators/date.helper.ts">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/common/constants/consts.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1246">
-          <caret line="40" column="30" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="30" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/main/main.module.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -517,26 +495,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/main/customer/manager-list/manager-list.component.ts">
+    <entry file="file://$PROJECT_DIR$/src/assets/lang/et.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/main/customer/models/manager.model.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/main/customer/manager/manager.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="71" column="43" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="43" />
+        <state relative-caret-position="15876">
+          <caret line="441" column="21" selection-start-line="441" selection-start-column="3" selection-end-line="441" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -547,24 +509,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/main/customer/manager/manager.component.html">
+    <entry file="file://$PROJECT_DIR$/src/app/main/customer/models/manager.model.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3732">
-          <caret line="256" column="26" lean-forward="true" selection-start-line="256" selection-start-column="26" selection-end-line="256" selection-end-column="26" />
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/lang/et.json">
+    <entry file="file://$PROJECT_DIR$/src/app/main/customer/manager-list/manager-list.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="441" column="21" selection-start-line="441" selection-start-column="3" selection-end-line="441" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/dummySectors.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="886">
-          <caret line="66" column="21" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="21" />
+        <state>
+          <folding>
+            <element signature="e#0#74#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -577,20 +534,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/main/customer/business-create/business-create.component.ts">
+    <entry file="file://$PROJECT_DIR$/src/app/main/customer/manager-list/manager-list.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/common/constants/consts.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="260" column="30" selection-start-line="260" selection-start-column="30" selection-end-line="260" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="616">
+          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/main/customer/business-create/business-create.component.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/main/customer/manager/manager.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="192" column="80" selection-start-line="192" selection-start-column="80" selection-end-line="192" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/main/customer/manager/manager.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2429">
+          <caret line="60" column="2" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/main/customer/business-create/business-create.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="670">
-          <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
+        <state relative-caret-position="678">
+          <caret line="116" column="77" selection-start-line="116" selection-start-column="77" selection-end-line="116" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/dummySectors.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="796">
+          <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/@custor/validators/equal.validator.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/@custor/helpers/compare.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/main/customer/business-create/business-create.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="246" column="33" selection-start-line="246" selection-start-column="33" selection-end-line="246" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

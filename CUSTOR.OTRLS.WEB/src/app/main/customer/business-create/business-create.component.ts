@@ -21,11 +21,12 @@ export class BusinessCreateComponent implements OnInit {
   // declare variable for dummy sectors
   dummySectorsData: any;
   sectorsList: any;
-  subSectorsList: [] = [];
-  sectionsList: [] = [];
-  subSectionsList: [] = [];
-  classificationLens: any;
-  classificationLensLabel: string;
+  subSectorsList = [];
+  sectionsList = [];
+  subSectionsList = [];
+  classificationLenses = [];
+  selectedClassificationLenses = [];
+
   licenseRegistrationForm: FormGroup;
   // declare manger for getting default company name
   manager: ManagerDTO;
@@ -142,11 +143,8 @@ export class BusinessCreateComponent implements OnInit {
     // get dummy sectors
 
     this.dummySectorsData = this.apiService.getJSON().subscribe(res => {
-      console.log(res);
       this.dummySectorsData = res;
       this.sectorsList = this.dummySectorsData.sector;
-      console.log(this.sectorsList);
-
     });
 
     // this.apiService.getSectors().subscribe(res => {
@@ -163,15 +161,18 @@ export class BusinessCreateComponent implements OnInit {
   }
 
   getSubSectors(sector) {
-    console.log(sector.value);
+
     this.dummySectorsData.subSectors.forEach(subSector => {
-      console.log(subSector);
       if (subSector.id === sector.value) {
+        // empty array to avoid element repetitions
+        this.subSectorsList = [];
+
+        // add element to list
         this.subSectorsList.push(subSector);
 
       }
     });
-    console.log(this.subSectorsList);
+
 
     // this.apiService.getSubSectors(id).subscribe(res => {
     //   console.log(res);
@@ -187,15 +188,18 @@ export class BusinessCreateComponent implements OnInit {
 
   getSections(subSector) {
 
-    console.log(subSector);
-    this.dummySectorsData.sections.forEach(sections => {
-      console.log(sections);
-      if (sections.subSectorId === subSector.value) {
-        this.sectionsList.push(sections);
+
+    this.dummySectorsData.sections.forEach(section => {
+      if (section.subSectorId === subSector.value) {
+        // empty array to avoid element repetitions
+        this.sectionsList = [];
+
+        // add element to list
+        this.sectionsList.push(section);
 
       }
     });
-    console.log(this.sectionsList);
+
     // this.apiService.getSectionList(id).subscribe(res => {
     //   console.log(res);
     //   // patch response to sub secttion form controller
@@ -208,16 +212,17 @@ export class BusinessCreateComponent implements OnInit {
   }
 
   getSubSections(section) {
-
-    console.log(section.value);
     this.dummySectorsData.subSections.forEach(subSection => {
-      console.log(subSection, section.value);
+
       if (subSection.sectionId === section.value) {
+        // empty array to avoid element repetitions
+        this.subSectionsList = [];
+
+        // add element to list
         this.subSectionsList.push(subSection);
 
       }
     });
-    console.log(this.subSectionsList);
 
     // this.apiService.getSubSectorList(id).subscribe(res => {
     //   console.log(res);
@@ -235,14 +240,15 @@ export class BusinessCreateComponent implements OnInit {
 
     console.log(subSection.value);
     this.dummySectorsData.classificationLens.forEach(classification => {
-      console.log(subSection, subSection.value);
       if (classification.subSectionId === subSection.value) {
-        this.classificationLens = classification;
-        this.classificationLensLabel = classification.name;
+        // empty array to avoid element repetitions
+        this.classificationLenses = [];
 
+        // // add element to list
+        this.classificationLenses.push(classification);
       }
     });
-    console.log(this.classificationLensLabel);
+
 
     // this.apiService.getSubSectorList(id).subscribe(res => {
     //   console.log(res);
@@ -256,22 +262,27 @@ export class BusinessCreateComponent implements OnInit {
   }
 
   selectClassification(classification) {
-    console.log(classification);
-    console.log(this.classificationLens);
-    if (classification.checked === true) {
-      this.licenseRegistrationForm.patchValue({classificationLens: this.classificationLens.id});
+    if (this.selectedClassificationLenses.length > 0) {
+      this.selectedClassificationLenses.filter((value, index, arr) => {
+        if (value === classification.id) {
+          return arr.splice(index, 1);
+        } else {
+          return arr.push(classification.id);
+        }
+      });
     } else {
-      this.licenseRegistrationForm.patchValue('');
-
+      this.selectedClassificationLenses.push(classification.id);
     }
+    this.licenseRegistrationForm.patchValue({classificationLens: this.selectedClassificationLenses});
 
 
   }
 
   onSubmit(application) {
+    this.progressBarService.triggerProgressBar(true);
     console.log(application);
     this.apiService.saveApplication(application).subscribe(res => {
-      console.log(application);
+      this.progressBarService.triggerProgressBar(false);
     });
   }
 

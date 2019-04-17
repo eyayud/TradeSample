@@ -71,12 +71,12 @@
       "name": "classification 1"
     },
     {
-      "id": 1,
-      "subSectionId": 2,
+      "id": 2,
+      "subSectionId": 1,
       "name": "classification 2"
     },
     {
-      "id": 1,
+      "id": 3,
       "subSectionId": 3,
       "name": "classification 3"
     }

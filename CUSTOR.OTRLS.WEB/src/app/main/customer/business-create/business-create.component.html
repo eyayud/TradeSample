@@ -22,7 +22,7 @@
             </mat-error>
 
             <mat-error *ngIf="!companyNameAmharic.hasError('required') && companyNameAmharic.hasError('minlength')">
-              {{'common.validation.MinLengthChar' | translate: {'min':'3'} }}
+              {{'common.validation.MinLengthChar' | translate: {'min': '3'} }}
             </mat-error>
           </mat-form-field>
 
@@ -36,7 +36,7 @@
             </mat-error>
 
             <mat-error *ngIf="!companyNameEnglish.hasError('required') && companyNameEnglish.hasError('minlength')">
-              {{'common.validation.MinLengthChar' | translate: {'min':'3'} }}
+              {{'common.validation.MinLengthChar' | translate: {'min': '3'} }}
             </mat-error>
           </mat-form-field>
 
@@ -47,11 +47,9 @@
 
 
             <mat-error *ngIf="!companyNameRegional.hasError('required') && companyNameRegional.hasError('minlength')">
-              {{'common.validation.MinLengthChar' | translate: {'min':'3'} }}
+              {{'common.validation.MinLengthChar' | translate: {'min': '3'} }}
             </mat-error>
           </mat-form-field>
-
-
 
 
         </div>
@@ -66,7 +64,7 @@
               {{'common.validation.NumberOnly' | translate}}
             </mat-error>
             <mat-error *ngIf="!signedCapital.hasError('required') && signedCapital.hasError('minlength')">
-              {{'common.validation.MinLengthChar' | translate: {'min':'2'} }}
+              {{'common.validation.MinLengthChar' | translate: {'min': '2'} }}
             </mat-error>
           </mat-form-field>
 
@@ -97,7 +95,7 @@
         <div class="input-row mt-6" fxLayout="row" fxLayout.lt-md="column" fxLayoutGap="20px" fxLayoutGap.lt-md="0px">
           <mat-form-field fxFlex>
             <mat-label>{{'section.header'| translate}}</mat-label>
-            <mat-select formControlName="sections"  (selectionChange)="getSubSections($event)">
+            <mat-select formControlName="sections" (selectionChange)="getSubSections($event)">
               <mat-option *ngFor="let section of sectionsList" [value]="section.id">
                 {{section.name}}
               </mat-option>
@@ -116,25 +114,20 @@
         </div>
 
 
-
-
-
-
-        <div fxLayout="row" class="mt-1" *ngIf="classificationLensLabel">
+        <div fxLayout="row" class="mt-1" *ngIf="classificationLenses.length>0">
           <label class="mr-2">{{'classificationLens.header'| translate}}</label>
-          <mat-checkbox (change)="selectClassification($event)" > {{classificationLensLabel}}</mat-checkbox>
+          <mat-checkbox (change)="selectClassification(classificationLens)" *ngFor="let classificationLens of classificationLenses"> {{classificationLens.name}}</mat-checkbox>
         </div>
-
 
 
       </mat-card-content>
       <mat-card-actions>
         <mat-divider></mat-divider>
         <div fxLayout="row" fxLayoutAlign="end" class="mt-3">
-          <button mat-raised-button color="warn">CANCLE</button>
-          <button [disabled]="licenseRegistrationForm.invalid" type="submit"  mat-raised-button color="primary">SAVE</button>
+          <button mat-raised-button color="warn">  {{'common.commands.Cancel' | translate}}</button>
+          <button [disabled]="licenseRegistrationForm.invalid" type="submit" mat-raised-button
+                  color="primary">{{'common.commands.Save' | translate}}</button>
         </div>
-
 
 
       </mat-card-actions>

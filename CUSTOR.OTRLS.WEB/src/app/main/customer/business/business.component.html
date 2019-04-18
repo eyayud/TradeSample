@@ -1,3 +1,180 @@
-<p>
-  business works!
-</p>
+<div class="page-content">
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>Business Types {{'pageHeader.businessLicense' | translate}}</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <form [formGroup]="generalInfo">
+     
+      <div fxLayout="row wrap" fxLayoutAlign="" fxLayoutGap="1">
+        <mat-form-field fxFlex="25">
+           <mat-label>{{'registration.editor.Tin' | translate}}</mat-label>
+          <input matInput id="tinNumber" formControlName="tinNumber" required placeholder="Tin Number" />
+        </mat-form-field>
+        <mat-form-field fxFlex="25">
+          <mat-label>{{'registration.editor.PaidCapital'  | translate}}</mat-label>
+          <input matInput id="paidCapital" formControlName="paidCapital" required placeholder="Paid Capital" />
+        </mat-form-field>
+        <mat-form-field fxFlex="25">
+           <mat-label>{{'registration.editor.SighnedCapital'  | translate}}</mat-label>
+          <input matInput id="assignedCapital" formControlName="assignedCapital" required
+            placeholder="Assigned Capital" />
+        </mat-form-field>
+        <mat-form-field fxFlex="25">
+            <mat-label>{{'registration.editor.SingleShareValue'}}</mat-label>
+          <input matInput id="totalNoOfShares" formControlName="totalNoOfShares" required
+            placeholder="Total Number of shares" />
+        </mat-form-field>
+        <mat-form-field fxFlex="25">
+          <mat-label>{{'registration.editor.SingleShareValue'}}</mat-label>
+          <input matInput id="shareValue" formControlName="shareValue" required placeholder="Share value" />
+        </mat-form-field>
+      </div>
+       <div fxLayout="row wrap" fxLayoutAlign="" fxLayoutGap="1" class="business-types">
+         <div *ngFor="let business of businessTypes;index as i" fxFlex="50">
+           <mat-checkbox [checked]="business.checked"
+            (change)="addBusinessCategory($event,business.id,i)">
+             {{ business.name }}
+           </mat-checkbox>
+         </div>
+       </div>
+    </form>
+  </mat-card-content>
+ <mat-card-actions fxLayoutAlign="center end">
+   <button mat-raised-button color="primary" (click)="saveGeneralInfo()">Save</button>
+   <button mat-raised-button color="warn" (cancel)="cancel()">Cancel</button>
+ </mat-card-actions>
+</mat-card>
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>Related Information</mat-card-title>
+    <mat-card-subtitle>Business Address</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <form [formGroup]="addressForm">
+      <div fxLayout="row" fxLayoutAlign="" fxLayoutGap="1">
+        <mat-form-field fxFlex="25">
+          <mat-label>{{'investors.editor.Region' | translate}}</mat-label>
+          <mat-select formControlName="RegionId"
+                     (selectionChange)="filterRegion($event.value)" required>
+            <mat-option *ngFor="let reg of regions" [value]="reg.RegionId">
+              <span>{{reg.Description}}</span>
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+        <mat-form-field fxFlex="25">
+          <mat-label>{{'investors.editor.Zone' | translate}}</mat-label>
+          <mat-select formControlName="ZoneId" (selectionChange)="filterZone($event.value)">
+            <mat-option *ngFor="let zone of filteredZones" [value]="zone.ZoneId">
+              <span>{{zone.Description}}</span>
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+        <mat-form-field fxFlex="25">
+          <mat-label>{{'investors.editor.Woreda' | translate}}</mat-label>
+          <mat-select formControlName="WoredaId" (selectionChange)="filterWoreda($event.value)">
+            <mat-option *ngFor="let w of filteredWoredas" [value]="w.WoredaId">
+              <span>{{w.Description}}</span>
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+        <mat-form-field fxFlex="25">
+          <mat-label>{{'investors.editor.Kebele' | translate}}</mat-label>
+          <mat-select formControlName="KebeleId">
+            <!-- <mat-option value="0">--</mat-option> -->
+            <mat-option *ngFor="let keb of filteredKebeles" [value]="keb.KebeleId">
+              <span>{{keb.Description}}</span>
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+        <mat-form-field fxFlex="25">
+             <mat-label>{{'investors.editor.HouseNo' | translate}}</mat-label>
+          <input matInput id="houseNumber" formControlName="houseNumber"  placeholder="House Number" />
+        </mat-form-field>
+      </div>
+      <div fxLayout="row" fxLayoutAlign="" fxLayoutGap="1">
+        <mat-form-field fxFlex="25">
+          <mat-label>{{'registrationAddress.editor.PhoneDirect' | translate}}</mat-label>
+          <input matInput id="phoneNumber" formControlName="phoneNumber" required />
+        </mat-form-field>
+        <mat-form-field fxFlex="25">
+          <mat-label>{{'registrationAddress.editor.PhoneMobile' | translate}}</mat-label>
+          <input matInput id="mobileNumber" formControlName="mobileNumber" required placeholder="Mobile Number" />
+        </mat-form-field>
+        <mat-form-field fxFlex="25">
+            <mat-label>{{'registrationAddress.editor.Fax' | translate}}</mat-label>
+          <input matInput id="fax" formControlName="fax" placeholder="Fax" />
+        </mat-form-field>
+        <mat-form-field fxFlex="25">
+            <mat-label>{{'registrationAddress.editor.Pobox' | translate}}</mat-label>
+          <input matInput id="poBox" formControlName="poBox" placeholder="P.O Box" />
+        </mat-form-field>
+        <mat-form-field fxFlex="25">
+            <mat-label>{{'registrationAddress.editor.Email' | translate}}</mat-label>
+          <input matInput id="email" formControlName="email" placeholder="Email" />
+        </mat-form-field>
+      </div>
+      <div fxLayout="row" fxLayoutAlign="" fxLayoutGap="1">
+        <mat-form-field fxFlex="25">
+          <input matInput id="optionalAddress" formControlName="optionalAddress" placeholder="Optional Address" />
+        </mat-form-field>
+
+      </div>
+
+    </form>
+  </mat-card-content>
+  <mat-card-actions fxLayoutAlign="center end">
+    <button mat-raised-button color="primary" (click)="saveAddress()" >Save</button>
+    <button mat-raised-button color="warn" (cancel)="cancel()">Cancel</button>
+  </mat-card-actions>
+
+</mat-card>
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>Personal Information</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+
+    <form [formGroup]="personalInfoForm">
+      <div fxLayout="row" fxLayoutAlign="" fxLayoutGap="1">
+        <mat-form-field fxFlex="25">
+          <input matInput [matDatepicker]="picker" placeholder="Birth date">
+          <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+          <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+        <mat-form-field fxFlex="25">
+          <mat-label>Type of Association</mat-label>
+          <mat-select formControlName="type">
+            <mat-option value="manager">
+              <span>manager</span>
+            </mat-option>
+            <mat-option value="manager">
+              <span>Owner</span>
+            </mat-option>
+            <mat-option value="manager">
+              <span>Sitter</span>
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+        <mat-form-field fxFlex="25">
+          <input matInput id="noOfShares" formControlName="noOfShares" placeholder="Number of Shares" />
+        </mat-form-field>
+        <mat-form-field fxFlex="25">
+          <input matInput id="licenseRegNumber" formControlName="licenseRegNumber"
+            placeholder="license Registration Number" />
+        </mat-form-field>
+        <mat-form-field fxFlex="25">
+          <input matInput id="passPortNumber" formControlName="passPortNumber" placeholder="Passport Number" />
+        </mat-form-field>
+      </div>
+    </form>
+
+  </mat-card-content>
+  <mat-card-actions fxLayoutAlign="center end">
+     <button mat-raised-button color="primary" (click)="savePersonalInfo()" >Save</button>
+     <button mat-raised-button color="warn" (cancel)="cancel()">Cancel</button>
+  </mat-card-actions>
+
+</mat-card>
+</div>
+

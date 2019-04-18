@@ -17,7 +17,8 @@ import {ManagerService} from './services/manager.service';
 export const routes = [
     { path: '', redirectTo: 'manager-list', pathMatch: 'full'},
     { path: 'manager-list', component: ManagerListComponent},
-    { path: 'manager/:id', component: ManagerComponent}
+    { path: 'manager/:id', component: ManagerComponent},
+    { path: 'business', component: BusinessComponent}
   ];
 @NgModule({
     declarations: [

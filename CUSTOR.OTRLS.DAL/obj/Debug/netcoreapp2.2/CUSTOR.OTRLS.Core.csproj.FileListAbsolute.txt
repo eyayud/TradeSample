@@ -25,3 +25,12 @@ C:/Projects/OTRLS2019/OTRLSV1/CUSTOR.OTRLS.DAL/obj/Debug/netcoreapp2.2/CUSTOR.OT
 /home/yo/Desktop/Lab/TradeSample/CUSTOR.OTRLS.DAL/obj/Debug/netcoreapp2.2/CUSTOR.OTRLS.Core.AssemblyInfo.cs
 /home/yo/Desktop/Lab/TradeSample/CUSTOR.OTRLS.DAL/obj/Debug/netcoreapp2.2/CUSTOR.OTRLS.Core.dll
 /home/yo/Desktop/Lab/TradeSample/CUSTOR.OTRLS.DAL/obj/Debug/netcoreapp2.2/CUSTOR.OTRLS.Core.pdb
+C:\Users\Fetiha K\Desktop\DEV\Git\TradeSample\CUSTOR.OTRLS.DAL\bin\Debug\netcoreapp2.2\CUSTOR.OTRLS.Core.deps.json
+C:\Users\Fetiha K\Desktop\DEV\Git\TradeSample\CUSTOR.OTRLS.DAL\bin\Debug\netcoreapp2.2\CUSTOR.OTRLS.Core.dll
+C:\Users\Fetiha K\Desktop\DEV\Git\TradeSample\CUSTOR.OTRLS.DAL\bin\Debug\netcoreapp2.2\CUSTOR.OTRLS.Core.pdb
+C:\Users\Fetiha K\Desktop\DEV\Git\TradeSample\CUSTOR.OTRLS.DAL\obj\Debug\netcoreapp2.2\CUSTOR.OTRLS.Core.csprojAssemblyReference.cache
+C:\Users\Fetiha K\Desktop\DEV\Git\TradeSample\CUSTOR.OTRLS.DAL\obj\Debug\netcoreapp2.2\CUSTOR.OTRLS.Core.csproj.CoreCompileInputs.cache
+C:\Users\Fetiha K\Desktop\DEV\Git\TradeSample\CUSTOR.OTRLS.DAL\obj\Debug\netcoreapp2.2\CUSTOR.OTRLS.Core.AssemblyInfoInputs.cache
+C:\Users\Fetiha K\Desktop\DEV\Git\TradeSample\CUSTOR.OTRLS.DAL\obj\Debug\netcoreapp2.2\CUSTOR.OTRLS.Core.AssemblyInfo.cs
+C:\Users\Fetiha K\Desktop\DEV\Git\TradeSample\CUSTOR.OTRLS.DAL\obj\Debug\netcoreapp2.2\CUSTOR.OTRLS.Core.dll
+C:\Users\Fetiha K\Desktop\DEV\Git\TradeSample\CUSTOR.OTRLS.DAL\obj\Debug\netcoreapp2.2\CUSTOR.OTRLS.Core.pdb

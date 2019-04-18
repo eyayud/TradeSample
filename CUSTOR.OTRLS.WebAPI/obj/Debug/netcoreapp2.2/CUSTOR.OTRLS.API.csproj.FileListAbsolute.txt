@@ -32,3 +32,20 @@ C:/Projects/OTRLS2019/OTRLSV1/CUSTOR.OTRLS.WebAPI/obj/Debug/netcoreapp2.2/CUSTOR
 /home/yo/Desktop/Lab/TradeSample/CUSTOR.OTRLS.WebAPI/obj/Debug/netcoreapp2.2/CUSTOR.OTRLS.API.csproj.CopyComplete
 /home/yo/Desktop/Lab/TradeSample/CUSTOR.OTRLS.WebAPI/obj/Debug/netcoreapp2.2/CUSTOR.OTRLS.API.dll
 /home/yo/Desktop/Lab/TradeSample/CUSTOR.OTRLS.WebAPI/obj/Debug/netcoreapp2.2/CUSTOR.OTRLS.API.pdb
+C:\Users\Fetiha K\Desktop\DEV\Git\TradeSample\CUSTOR.OTRLS.WebAPI\bin\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.deps.json
+C:\Users\Fetiha K\Desktop\DEV\Git\TradeSample\CUSTOR.OTRLS.WebAPI\bin\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.runtimeconfig.json
+C:\Users\Fetiha K\Desktop\DEV\Git\TradeSample\CUSTOR.OTRLS.WebAPI\bin\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.runtimeconfig.dev.json
+C:\Users\Fetiha K\Desktop\DEV\Git\TradeSample\CUSTOR.OTRLS.WebAPI\bin\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.dll
+C:\Users\Fetiha K\Desktop\DEV\Git\TradeSample\CUSTOR.OTRLS.WebAPI\bin\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.pdb
+C:\Users\Fetiha K\Desktop\DEV\Git\TradeSample\CUSTOR.OTRLS.WebAPI\bin\Debug\netcoreapp2.2\CUSTOR.OTRLS.Core.dll
+C:\Users\Fetiha K\Desktop\DEV\Git\TradeSample\CUSTOR.OTRLS.WebAPI\bin\Debug\netcoreapp2.2\CUSTOR.OTRLS.Core.pdb
+C:\Users\Fetiha K\Desktop\DEV\Git\TradeSample\CUSTOR.OTRLS.WebAPI\obj\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.csprojAssemblyReference.cache
+C:\Users\Fetiha K\Desktop\DEV\Git\TradeSample\CUSTOR.OTRLS.WebAPI\obj\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.csproj.CoreCompileInputs.cache
+C:\Users\Fetiha K\Desktop\DEV\Git\TradeSample\CUSTOR.OTRLS.WebAPI\obj\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.RazorAssemblyInfo.cache
+C:\Users\Fetiha K\Desktop\DEV\Git\TradeSample\CUSTOR.OTRLS.WebAPI\obj\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.RazorAssemblyInfo.cs
+C:\Users\Fetiha K\Desktop\DEV\Git\TradeSample\CUSTOR.OTRLS.WebAPI\obj\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.AssemblyInfoInputs.cache
+C:\Users\Fetiha K\Desktop\DEV\Git\TradeSample\CUSTOR.OTRLS.WebAPI\obj\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.AssemblyInfo.cs
+C:\Users\Fetiha K\Desktop\DEV\Git\TradeSample\CUSTOR.OTRLS.WebAPI\obj\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.RazorTargetAssemblyInfo.cache
+C:\Users\Fetiha K\Desktop\DEV\Git\TradeSample\CUSTOR.OTRLS.WebAPI\obj\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.csproj.CopyComplete
+C:\Users\Fetiha K\Desktop\DEV\Git\TradeSample\CUSTOR.OTRLS.WebAPI\obj\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.dll
+C:\Users\Fetiha K\Desktop\DEV\Git\TradeSample\CUSTOR.OTRLS.WebAPI\obj\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.pdb

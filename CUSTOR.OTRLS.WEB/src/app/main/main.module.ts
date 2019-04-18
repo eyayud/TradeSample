@@ -18,7 +18,8 @@ export const routes = [
             path: '',
             component: MainComponent, children: [
                 { path: 'dashboard', loadChildren: './dashboard/dashboard.module#DashboardModule'},
-                { path: 'customer', loadChildren: './customer/customer.module#CustomerModule'}
+                { path: 'customer', loadChildren: './customer/customer.module#CustomerModule'},
+                { path :'register', loadChildren:'./register/register.module#RegisterModule'}
             ]
     }
   ];

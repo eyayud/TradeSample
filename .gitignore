@@ -237,6 +237,7 @@ _Pvt_Extensions
 CUSTOR.OTRLS.WEB/node_modules
 CUSTOR.OTRLS.WEB/.idea/
 CUSTOR.OTRLS.WEB/dist/
+CUSTOR.OTRLS.WebAPI/.vs/
 .idea/
 .vscode/
 

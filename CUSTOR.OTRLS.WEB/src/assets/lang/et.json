@@ -114,7 +114,11 @@
     "projectDetail": "Project Detail",
     "customerRegistration": "Customer Registration",
     "applicationList": "All Application List",
+<<<<<<< HEAD
     "businessLicense": "አዲስ ንግድ ፍቃድ ምዝገባ"
+=======
+    "businessLicense": "የምዝገባ ማስታወሻ"
+>>>>>>> 8fd3d75c4ae482f74ff6bdf8204f3f278ae89acd
   },
   "investors": {
     "management": {

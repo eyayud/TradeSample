@@ -20,7 +20,11 @@ export const routes = [
     { path: '', redirectTo: 'manager-list', pathMatch: 'full'},
     { path: 'manager-list', component: ManagerListComponent},
     { path: 'manager/:id', component: ManagerComponent},
+<<<<<<< HEAD
     {path:'createBusinessLicense', component: BusinessCreateComponent}
+=======
+    { path: 'business', component: BusinessComponent}
+>>>>>>> 8fd3d75c4ae482f74ff6bdf8204f3f278ae89acd
   ];
 @NgModule({
     declarations: [

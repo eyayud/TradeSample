@@ -7,6 +7,7 @@ import { CommonModule } from '@angular/common';
 import { OurServicesComponent } from './our-services/our-services.component';
 import {CustomerService} from './our-services/customer-services.service';
 export const routes = [
+   // { path: '', component: LandingComponent, pathMatch: 'full' }
     { path: '', component: LandingComponent, pathMatch: 'full' }
   ];
 @NgModule({

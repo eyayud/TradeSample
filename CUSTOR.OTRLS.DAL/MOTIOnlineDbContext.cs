@@ -25,6 +25,20 @@ namespace CUSTOR.OTRLS.Core
         public virtual DbSet<Zone> Zone { get; set; }
         public virtual DbSet<Address> Address { get; set; }
 
+        public virtual DbSet<Registration> Registration { get; set; }
+        public virtual DbSet<RegistrationCatagory> RegistrationCatagory { get; set; }
+        public DbSet<MajorDivision> MajorDivision { get; set; }
+        public DbSet<LegalStatus> LegalStatus { get; set; }
+
+
+        public virtual DbSet<Business> Business { get; set; }
+        public virtual DbSet<BusinessLicensingGroup> BusinessLicensingGroup { get; set; }
+        public virtual DbSet<SubGroup> SubGroup { get; set; }
+        public virtual DbSet<MajorGroup> MajorGroup { get; set; }
+        public virtual DbSet<Group> Group { get; set; }
+        public virtual DbSet<Division> Division { get; set; }
+
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             //modelBuilder.HasAnnotation("ProductVersion", "2.2.2-servicing-10034");

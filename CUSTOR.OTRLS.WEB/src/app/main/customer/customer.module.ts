@@ -14,13 +14,16 @@ import {LookUpService} from '../../common/services/look-up.service';
 import {AddressService} from '../../common/services/address.service';
 import {ManagerService} from './services/manager.service';
 import { ProfileComponent } from './profile/profile.component';
+import { BusinessCreateComponent } from './business-create/business-create.component';
+import { BusinessApiService } from './services/business.api.service';
 
 export const routes = [
     { path: '', redirectTo: 'manager-list', pathMatch: 'full'},
     { path: 'manager-list', component: ManagerListComponent},
     { path: 'manager/:id', component: ManagerComponent},
     { path: 'business', component: BusinessComponent},
-    { path: 'profile', component: ProfileComponent}
+    { path: 'profile', component: ProfileComponent},
+    { path:'createBusinessLicense', component: BusinessCreateComponent}
   ];
 @NgModule({
     declarations: [
@@ -28,7 +31,8 @@ export const routes = [
         ManagerListComponent,
         BusinessComponent,
         BusinessListComponent,
-        ProfileComponent
+        ProfileComponent,
+        BusinessCreateComponent
     ],
     imports: [
         RouterModule.forChild(routes),
@@ -44,7 +48,7 @@ export const routes = [
           }
         }),
       ],
-      providers: [AppTranslationService, LookUpService, AddressService, ManagerService]
+      providers: [AppTranslationService, LookUpService, AddressService, ManagerService, BusinessApiService]
 
   })
   export class CustomerModule { }

@@ -114,7 +114,7 @@
     "projectDetail": "Project Detail",
     "customerRegistration": "Customer Registration",
     "applicationList": "All Application List",
-    "businessLicense": "የምዝገባ ማስታወሻ"
+    "businessLicense": "አዲስ ንግድ ፍቃድ ምዝገባ"
   },
   "investors": {
     "management": {
@@ -155,7 +155,7 @@
       "AddressCaption": "አድራሻ",
       "BusinessDataCaption": "የንግድ ምዝገባ መረጃ",
       "PaidCapital": "የተከፈለ ካፒታል",
-      "SighnedCapital": "የተፈረመ ካፒታል",
+      "SignedCapital": "የተፈረመ ካፒታል",
       "FormOfOwnership": "Form Of Ownership"
     }
   },
@@ -420,13 +420,30 @@
     "DescriptionEnglishAlias": "መግለጫ በእንግሊዘኛ በአጭሩ",
     "EconomicSectorCode": "ኢኮኖሚክ ሴክተር ኮድ"
   },
-  "subbsector": {
+  "subsector": {
     "sector": "ዘረፍ",
     "header": "ዋና ዘረፍ",
     "Description": "መግለጫ",
     "DescriptionAlias": "መግለጫ በአጭሩ",
     "DescriptionEnglish": "መግለጫ በእንግሊዘኛ",
     "DescriptionEnglishAlias": "መግለጫ በእንግሊዘኛ በአጭሩ"
+  },
+  "section": {
+    "header": "ክፍል",
+    "Description": "መግለጫ",
+    "DescriptionAlias": "መግለጫ በአጭሩ",
+    "DescriptionEnglish": "መግለጫ በእንግሊዘኛ",
+    "DescriptionEnglishAlias": "መግለጫ በእንግሊዘኛ በአጭሩ"
+  },
+  "subsection": {
+    "header": "ንዑስ ክፍል",
+    "Description": "መግለጫ",
+    "DescriptionAlias": "መግለጫ በአጭሩ",
+    "DescriptionEnglish": "መግለጫ በእንግሊዘኛ",
+    "DescriptionEnglishAlias": "መግለጫ በእንግሊዘኛ በአጭሩ"
+  },
+  "classificationLens": {
+    "header": "ፍቃድ ፈርጅ"
   },
   "invActivity": {
     "sector": "ዘረፍ",
@@ -505,6 +522,9 @@
   "letterTemplate": {
     "Header": "Letter Template",
     "LetterType": "Letter Type"
+  },
+  "subTitle":{
+    "fillInformation":"መረጃ መሙያ "
   }
 }
 

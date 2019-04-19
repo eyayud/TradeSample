@@ -1,5 +1,6 @@
 import { Routes, RouterModule, PreloadAllModules  } from '@angular/router';
 import { ModuleWithProviders } from '@angular/core';
+import { RegisterComponent } from '../app/main/register/register.component'
 // import { MainComponent } from './main/main.component';
  
 
@@ -8,6 +9,7 @@ export const routes: Routes = [
                 path: '',
                 loadChildren: './landing/landing.module#LandingModule'
         },
+       
         {
                 path: 'auth',
                 loadChildren: './auth/auth.module#AuthenticationModule'

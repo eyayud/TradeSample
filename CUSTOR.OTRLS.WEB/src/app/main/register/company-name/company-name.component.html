@@ -1,0 +1,64 @@
+<!-- <h2>{{title}}</h2> -->
+<mat-card>
+    <mat-card-content>
+      <form [formGroup]="companyForm">
+        <!-- <pre>
+
+          {{companyForm.value | json}}
+        </pre> -->
+ <div fxLayout="row" fxLayoutAlign="space-around center" fxLayoutGap="2">
+    <div fxFlex="45" >
+      <mat-form-field fxFlexFill>
+        <input matInput id="companyNameOptionOne" 
+              formControlName="companyNameOptionOne" 
+              required
+              placeholder="Company Name Option one" />
+      </mat-form-field>
+    </div>
+
+    <div fxFlex="45">
+      <mat-form-field fxFlexFill>
+        <input matInput id="companyNameOptionTwo"
+              formControlName="companyNameOptionTwo"
+              required
+              placeholder="Company Name Option Two" />
+      </mat-form-field>
+    </div>
+ </div>
+ <div fxLayout="row" fxLayoutAlign="space-around center" fxLayoutGap="2">
+    <div fxFlex="45">
+        <mat-form-field fxFlexFill>
+          <input matInput id="companyNameOptionThree"
+                 formControlName="companyNameOptionThree" required
+                 placeholder="Company Name Option Three" />
+        </mat-form-field>
+    </div>
+  <div fxFlex="45">
+    <mat-form-field fxFlexFill>
+      <input matInput id="companyNameOptionOneAm"
+            formControlName="companyNameOptionOneAm" required
+              placeholder="companyNameOptionOneAm" />
+    </mat-form-field>
+  </div>
+ </div>
+ <div fxLayout="row" fxLayoutAlign="space-around center" fxLayoutGap="2">
+    <div fxFlex="45">
+      <mat-form-field fxFlexFill>
+        <input matInput id="companyNameOptionTwoAm" formControlName="companyNameOptionTwoAm" required
+          placeholder="companyNameOptionTwoAm" />
+      </mat-form-field>
+    </div>
+    <div fxFlex="45">
+      <mat-form-field fxFlexFill>
+        <input matInput id="companyNameOptionThreeAm" formControlName="companyNameOptionThreeAm" required
+          placeholder="companyNameOptionThreeAm" />
+      </mat-form-field>
+    </div>
+ </div>
+ </form>
+ </mat-card-content>
+ <mat-card-actions fxLayoutAlign="center end">
+   <button mat-raised-button color="primary" (click)="saveBusiness()">Save</button>
+   <button mat-raised-button color="warn" (cancel)="cancel()">Cancel</button>
+ </mat-card-actions>
+</mat-card>

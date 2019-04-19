@@ -1,8 +1,8 @@
 // import {catchError, map} from 'rxjs/operators';
 import {Injectable, Injector} from '@angular/core';
-import {ManagerDTO} from '../models/manager.model';
-import {HttpClient} from '@angular/common/http';
-import {Observable} from 'rxjs';
+import { ManagerDTO } from '../models/manager.model';
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
 import {catchError, map} from 'rxjs/operators';
 import {ConfigurationService} from 'src/@custor/services/configuration.service';
 import {EndpointFactory} from 'src/@custor/services/security/endpoint-factory.service';

@@ -1,0 +1,25 @@
+mat-card {
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1);
+  display: block;
+  position: relative;
+  padding: 0px !important;
+  border-radius: 2px;
+}
+
+span {
+  font-size: 12px;
+  color: steelblue;
+  background-color: transparent;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.page-content {
+  width: 900px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  // margin-right:40px;
+  margin-top: 20px;
+  // margin-left:20px;
+  background-color: white;
+}

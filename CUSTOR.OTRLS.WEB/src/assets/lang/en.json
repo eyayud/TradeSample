@@ -445,6 +445,22 @@
     "DescriptionEnglish": "Description English",
     "DescriptionEnglishAlias": "Description English Alias"
   },
+  "section": {
+    "header": "Section",
+    "Description": "Description",
+    "DescriptionAlias": "Description Alias",
+    "DescriptionEnglish": "Description English",
+    "DescriptionEnglishAlias": "Description English Alias",
+    "EconomicSectorCode": "Economic Sector Code"
+  },
+  "subsection": {
+    "header": "Sub section",
+    "Description": "Description",
+    "DescriptionAlias": "Description Alias",
+    "DescriptionEnglish": "Description English",
+    "DescriptionEnglishAlias": "Description English Alias",
+    "EconomicSectorCode": "Economic Sector Code"
+  },
   "activity": {
     "Sector": "Sector",
     "subSector": "SubSector",

@@ -5,10 +5,31 @@
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>H:\CustorProjects\MOTI\TradeOnline\TradeSample\CUSTOR.OTRLS.WebAPI\bin\Debug\netcoreapp2.2\TradeSwagger.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.deps.json" />
+    <Content Include="bin\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.runtimeconfig.json" />
+    <Content Include="bin\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.dll" />
+    <None Include="bin\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.pdb" />
+    <None Include="bin\Debug\netcoreapp2.2\CUSTOR.OTRLS.Core.dll" />
+    <None Include="bin\Debug\netcoreapp2.2\CUSTOR.OTRLS.Core.pdb" />
+    <None Include="bin\Debug\netcoreapp2.2\TradeSwagger.xml" />
+  </ItemGroup>
+
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0-rc2" />
+    <PackageReference Include="Swashbuckle.AspNetCore.ReDoc" Version="5.0.0-rc2" />
   </ItemGroup>
 
   <ItemGroup>

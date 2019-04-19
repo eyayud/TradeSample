@@ -1,0 +1,17 @@
+<mat-tab-group [selectedIndex]="selectedIndex" class="tab-margin">
+  <mat-tab label="Commercial Registration">
+    <ng-template matTabContent>
+      <app-register></app-register>
+    </ng-template>
+   </mat-tab>
+  <mat-tab label="Managers">
+    <ng-template matTabContent>
+        <app-managers></app-managers>
+    </ng-template>
+  </mat-tab> 
+   <mat-tab label="Company Name">
+     <ng-template matTabContent>
+       <app-company-name></app-company-name>
+     </ng-template>
+   </mat-tab>
+</mat-tab-group>

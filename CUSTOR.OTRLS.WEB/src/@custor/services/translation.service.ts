@@ -6,13 +6,14 @@ declare var require: any;
 @Injectable()
 export class AppTranslationService {
 
-  readonly defaultLanguage = 'en';
+  readonly defaultLanguage = 'et';
   private onLanguageChanged = new Subject<string>();
   languageChanged$ = this.onLanguageChanged.asObservable();
 
   constructor(private translate: TranslateService) {
 
     this.setDefaultLanguage(this.defaultLanguage);
+    console.log(this.defaultLanguage)
   }
 
   addLanguages(lang: string[]) {

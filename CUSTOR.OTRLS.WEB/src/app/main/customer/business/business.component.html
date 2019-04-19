@@ -1,3 +1,183 @@
-<p>
-  business works!
-</p>
+<div class="page-content">
+  <mat-card [hidden]="hideService">
+    <mat-card-header>
+      <mat-card-title>{{'investors.editor.Service register' | translate}}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <form [formGroup]="serviceForm">
+        <div fxLayout="row wrap" fxLayoutAlign="" fxLayoutGap="1">
+          <mat-form-field>
+            <mat-label>{{'registration.editor.ServiceNumber' | translate}}</mat-label>
+            <input matInput id="ServiceNumber" formControlName="ServiceNumber" required placeholder="Service Number" />
+          </mat-form-field>
+          <mat-form-field>
+            <mat-label>{{'registration.editor.StartDate' | translate}}</mat-label>
+            <input matInput id="StartDate" formControlName="StartDate" required placeholder="Start Date" />
+          </mat-form-field>
+          <mat-form-field>
+            <mat-label>{{'registration.editor.LegalStatus' | translate}}</mat-label>
+            <input matInput id="LegalStatus" formControlName="LegalStatus" required placeholder="Legal Status" />
+          </mat-form-field>
+          <!-- <section class="example-section">
+            <mat-checkbox class="example-margin" [disabled]="disabled">
+              I'm a checkbox
+            </mat-checkbox>
+          </section> -->
+        </div>
+      </form>
+    </mat-card-content>
+    <mat-card-actions fxLayoutAlign="center end">
+      <button mat-button class="mat-raised-button mat-primary" (click)="SaveServiceInfo()">Save Service</button>
+    </mat-card-actions>
+  </mat-card>
+
+
+</div>
+<div class="page-content">
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>New Business Registration</mat-card-title>
+      <mat-card-subtitle>General information</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <!-- <div fxLayout="row wrap" fxLayoutAlign="" fxLayoutGap="1">
+        <mat-form-field>
+          <mat-label>Registration Name Amharic</mat-label>
+          <p>
+          <input matInput id="RegistrationName" formControlName="RegistrationName" placeholder="Registration Name" />
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>Registration Name English </mat-label>
+          <input matInput id="RegistrationNameEng" formControlName="RegistrationNameEng"
+            placeholder="Registration Name" />
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>Registration Date </mat-label>
+          <input matInput id="RegistrationDate" formControlName="RegistrationDate" placeholder="Registration Name" />
+        </mat-form-field>
+      </div> -->
+      <form [formGroup]="businessForm">
+        <div fxLayout="row wrap" fxLayoutAlign="" fxLayoutGap="1">
+          <mat-form-field>
+            <mat-label>{{'registration.editor.PaidCapital'  | translate}}</mat-label>
+            <input matInput id="PaidCapital" formControlName="PaidCapital" required placeholder="Paid Capital" />
+          </mat-form-field>
+          <mat-form-field>
+            <mat-label>{{'registration.editor.AssignedCapital'  | translate}}</mat-label>
+            <input matInput id="AssignedCapital" formControlName="AssignedCapital" required
+              placeholder="Assigned Capital " />
+          </mat-form-field>
+        </div>
+        <div fxLayout="row wrap" fxLayoutAlign="start stretch" fxLayoutGap="1">
+          <div *ngFor="let business of businessTypes;index as i" fxFlex="50">
+            <mat-checkbox [checked]="business.checked" (change)="addBusinessCategory($event,business.id,i)">
+              {{ business.name }}
+            </mat-checkbox>
+          </div>
+        </div>
+      </form>
+    </mat-card-content>
+    <mat-card-actions fxLayoutAlign="center end">
+      <button mat-button 
+              mat-raised-button color="primary" 
+              (click)="saveBusiness()">
+             Save Business
+    </button>
+    </mat-card-actions>
+  </mat-card>
+</div>
+<div class="page-content">
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title> Work address</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <form [formGroup]="addressForm">
+        <mat-form-field>
+          <mat-label>{{'investors.editor.Region' | translate}}</mat-label>
+          <mat-select formControlName="RegionId" (selectionChange)="filterRegion($event.value)" required>
+            <mat-option *ngFor="let reg of regions" [value]="reg.RegionId">
+              <span>{{reg.Description}}</span>
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>{{'investors.editor.Zone' | translate}}</mat-label>
+          <mat-select formControlName="ZoneId" (selectionChange)="filterZone($event.value)">
+            <mat-option *ngFor="let zone of filteredZones" [value]="zone.ZoneId">
+              <span>{{zone.Description}}</span>
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>{{'investors.editor.Woreda' | translate}}</mat-label>
+          <mat-select formControlName="WoredaId" (selectionChange)="filterWoreda($event.value)">
+            <mat-option *ngFor="let w of filteredWoredas" [value]="w.WoredaId">
+              <span>{{w.Description}}</span>
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>{{'investors.editor.Kebele' | translate}}</mat-label>
+          <mat-select formControlName="KebeleId">
+            <!-- <mat-option value="0">--</mat-option> -->
+            <mat-option *ngFor="let keb of filteredKebeles" [value]="keb.KebeleId">
+              <span>{{keb.Description}}</span>
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>{{'investors.editor.HouseNo' | translate}}</mat-label>
+          <input matInput id="HouseNumber" formControlName="HouseNumber" placeholder="House Number" />
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>{{'registrationAddress.editor.PhoneDirect' | translate}}</mat-label>
+          <input matInput id="PhoneNumber" formControlName="PhoneNumber" required />
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>{{'registrationAddress.editor.PhoneMobile' | translate}}</mat-label>
+          <input matInput id="MobileNumber" formControlName="MobileNumber" required placeholder="Mobile Number" />
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>{{'registrationAddress.editor.Fax' | translate}}</mat-label>
+          <input matInput id="Fax" formControlName="Fax" placeholder="Fax" />
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>{{'registrationAddress.editor.Pobox' | translate}}</mat-label>
+          <input matInput id="PoBox" formControlName="PoBox" placeholder="P.O Box" />
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>{{'registrationAddress.editor.Email' | translate}}</mat-label>
+          <input matInput id="Email" formControlName="Email" placeholder="Email" />
+        </mat-form-field>
+      </form>
+    </mat-card-content>
+    <mat-card-actions fxLayoutAlign="center end">
+      <button mat-button mat-raised-button color="primary"  (click)="saveAddress()">Save Address</button>
+    </mat-card-actions>
+  </mat-card>
+</div>
+<div class="page-content">
+     
+
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>Title</mat-card-title>
+        <mat-card-subtitle>Subtitle</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <div fxLayout="row wrap" fxLayoutAlign="" fxLayoutGap="1">
+        <p> Name : Test            Fathers Name : Test      Grand Father Name : Grand MA  Mothers Name : Mother</p>
+     </div>
+      <div fxLayout="row wrap" fxLayoutAlign="" fxLayoutGap="1">
+        <p> Name (English) : Test Fathers Name (English) : Test Grand Father Name (English) : Grand MA Mothers Name
+          (English):
+          Mother</p>
+     </div>
+    </mat-card-content>
+    <mat-card-actions fxLayoutAlign="center end">
+        <button mat-button mat-raised-button color="primary" (click)="onAction1">Finish</button>
+    </mat-card-actions>
+   
+</mat-card>
+</div>

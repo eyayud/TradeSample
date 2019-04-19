@@ -49,11 +49,21 @@
       <mat-nav-list>
         <a mat-list-item routerLinkActive="active" routerLink="/about"><mat-icon>info</mat-icon>{{'mainMenu.About' | translate}}</a>
       </mat-nav-list>
+      <mat-nav-list>
+        <a mat-list-item routerLinkActive="active" 
+        routerLink="customer/business"><mat-icon>add</mat-icon>Business</a>
+      </mat-nav-list>
+      <mat-nav-list>
+        <a mat-list-item routerLinkActive="active" routerLink="customer/profile">
+          <mat-icon>add</mat-icon>Profile
+        </a>
+      </mat-nav-list>
     </mat-sidenav>
 
     <mat-sidenav-content>
       <div fxLayout="column" fxFill>
-        <div id="mainContent" fxFlex>
+        <div id="mainContent"class="light-grey-bg"fxFlex>
+          <app-progress-bar></app-progress-bar>
           <router-outlet></router-outlet>
         </div>
         <!-- <app-footer></app-footer> -->

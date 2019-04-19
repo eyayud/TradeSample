@@ -87,6 +87,12 @@ namespace CUSTOR.OTRLS.API
             services.AddScoped<RegistrationCatagoryRepository>();
             services.AddScoped<MajorDivisionRepository>();
             services.AddScoped<LegalStatusRepository>();
+
+            services.AddScoped<DivisionRepository>();
+            services.AddScoped<GroupRepository>();
+            services.AddScoped<MajorGroupRepository>();
+            services.AddScoped<SubGroupRepository>();
+            services.AddScoped<BusinessRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

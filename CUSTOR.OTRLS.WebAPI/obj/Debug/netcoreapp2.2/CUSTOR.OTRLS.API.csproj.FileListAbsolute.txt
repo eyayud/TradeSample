@@ -32,6 +32,7 @@ C:/Projects/OTRLS2019/OTRLSV1/CUSTOR.OTRLS.WebAPI/obj/Debug/netcoreapp2.2/CUSTOR
 /home/yo/Desktop/Lab/TradeSample/CUSTOR.OTRLS.WebAPI/obj/Debug/netcoreapp2.2/CUSTOR.OTRLS.API.csproj.CopyComplete
 /home/yo/Desktop/Lab/TradeSample/CUSTOR.OTRLS.WebAPI/obj/Debug/netcoreapp2.2/CUSTOR.OTRLS.API.dll
 /home/yo/Desktop/Lab/TradeSample/CUSTOR.OTRLS.WebAPI/obj/Debug/netcoreapp2.2/CUSTOR.OTRLS.API.pdb
+H:\CustorProjects\MOTI\TradeOnline\TradeSample\CUSTOR.OTRLS.WebAPI\bin\Debug\netcoreapp2.2\TradeSwagger.xml
 H:\CustorProjects\MOTI\TradeOnline\TradeSample\CUSTOR.OTRLS.WebAPI\bin\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.deps.json
 H:\CustorProjects\MOTI\TradeOnline\TradeSample\CUSTOR.OTRLS.WebAPI\bin\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.runtimeconfig.json
 H:\CustorProjects\MOTI\TradeOnline\TradeSample\CUSTOR.OTRLS.WebAPI\bin\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.runtimeconfig.dev.json
@@ -49,4 +50,3 @@ H:\CustorProjects\MOTI\TradeOnline\TradeSample\CUSTOR.OTRLS.WebAPI\obj\Debug\net
 H:\CustorProjects\MOTI\TradeOnline\TradeSample\CUSTOR.OTRLS.WebAPI\obj\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.csproj.CopyComplete
 H:\CustorProjects\MOTI\TradeOnline\TradeSample\CUSTOR.OTRLS.WebAPI\obj\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.dll
 H:\CustorProjects\MOTI\TradeOnline\TradeSample\CUSTOR.OTRLS.WebAPI\obj\Debug\netcoreapp2.2\CUSTOR.OTRLS.API.pdb
-H:\CustorProjects\MOTI\TradeOnline\TradeSample\CUSTOR.OTRLS.WebAPI\bin\Debug\netcoreapp2.2\TradeSwagger.xml

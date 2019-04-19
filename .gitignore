@@ -235,5 +235,7 @@ _Pvt_Extensions
 # FAKE - F# Make
 .fake/
 CUSTOR.OTRLS.WEB/node_modules
+CUSTOR.OTRLS.WEB/.idea/
+CUSTOR.OTRLS.WEB/dist/
 .idea/
 .vscode/

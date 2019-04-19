@@ -1,5 +1,7 @@
 .mat-form-field{
     margin-right: 1%;
+    width: 25%;
+    max-width: 20%;
 }
 .page-content {
     margin: 1% 5%;
@@ -13,4 +15,9 @@ mat-card {
     padding: 10px 20px;
     border-radius: 6px;
     border: 1px solid #eee;
+}
+        
+
+ mat-form-field{
+    
 }

@@ -3,6 +3,7 @@ import { BusinessDTO } from '../models/bussiness.model';
 import { BusinessesType } from '../mock-data/business';
 import { Observable, of } from 'rxjs';
 import { ConfigurationService } from 'src/@custor/services/configuration.service';
+import { HttpClient } from '@angular/common/http';
 
 
 @Injectable({
@@ -13,7 +14,7 @@ export class BusinessService {
     getBusinessBySelectedLanguage(currentLang: string): any {
         return of(BusinessesType);
     }
-    constructor(private configService: ConfigurationService) {
+    constructor(private configService: ConfigurationService, private httpClient:HttpClient) {
         this.lang = this.configService.language;
      }
 

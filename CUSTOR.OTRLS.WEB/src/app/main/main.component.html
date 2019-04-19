@@ -50,7 +50,13 @@
         <a mat-list-item routerLinkActive="active" routerLink="/about"><mat-icon>info</mat-icon>{{'mainMenu.About' | translate}}</a>
       </mat-nav-list>
       <mat-nav-list>
-        <a mat-list-item routerLinkActive="active" routerLink="main/register/new"><mat-icon>add</mat-icon>Register</a>
+        <a mat-list-item routerLinkActive="active" 
+        routerLink="customer/business"><mat-icon>add</mat-icon>Business</a>
+      </mat-nav-list>
+      <mat-nav-list>
+        <a mat-list-item routerLinkActive="active" routerLink="customer/profile">
+          <mat-icon>add</mat-icon>Profile
+        </a>
       </mat-nav-list>
     </mat-sidenav>
 

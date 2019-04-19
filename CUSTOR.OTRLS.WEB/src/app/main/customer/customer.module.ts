@@ -13,19 +13,22 @@ import {BusinessListComponent} from './business-list/business-list.component';
 import {LookUpService} from '../../common/services/look-up.service';
 import {AddressService} from '../../common/services/address.service';
 import {ManagerService} from './services/manager.service';
+import { ProfileComponent } from './profile/profile.component';
 
 export const routes = [
     { path: '', redirectTo: 'manager-list', pathMatch: 'full'},
     { path: 'manager-list', component: ManagerListComponent},
     { path: 'manager/:id', component: ManagerComponent},
-    { path: 'business', component: BusinessComponent}
+    { path: 'business', component: BusinessComponent},
+    { path: 'profile', component: ProfileComponent}
   ];
 @NgModule({
     declarations: [
         ManagerComponent,
         ManagerListComponent,
         BusinessComponent,
-        BusinessListComponent
+        BusinessListComponent,
+        ProfileComponent
     ],
     imports: [
         RouterModule.forChild(routes),

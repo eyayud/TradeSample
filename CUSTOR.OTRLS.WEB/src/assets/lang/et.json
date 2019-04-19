@@ -360,8 +360,8 @@
       "Tin": "የግብር ከፋይ መለያ",
       "RegNumber": "የምዝገባ ቁጥር",
       "RegDate": "የምዝገባ ቀን",
-      "PaidCapital": "የግብር ከፋይ መለያ",
-      "SighnedCapital": "የምዝገባ ቁጥር",
+      "PaidCapital": "የተፈረመ ካፒታል",
+      "AssignedCapital": "የተከፈለ/የተመደበ",
       "SingleShareValue": "የምዝገባ ቀን",
       "RepresentativeNameAmharic": "የወካይ ድርጅት ስም(በአማርኛ)",
       "RepresentativeNameEnglish": "የወካይ ድርጅት ስም(በእንግሊዝኛ)",
@@ -374,7 +374,10 @@
       "MainOfficeAddressRegional": "የውና መ/ቤት አድራሻ ከኢትዮጲያ ውጪ(በክልል ቋንቋ)",
       "MainOfficeCountryNameAmharic": "የተቋቋመበት አገር",
       "MainOfficeCountryNameEnglish": "የተቋቋመበት አገር(በእንግሊዝኛ)",
-      "MainOfficeCountryNameRegional": "የተቋቋመበት አገር(በክልል ቋንቋ)"
+      "MainOfficeCountryNameRegional": "የተቋቋመበት አገር(በክልል ቋንቋ)",
+      "ServiceNumber": "የአገልግሎት ቁጥር",
+      "StartDate": "የተጀመረበት ቀንና ሰዐት"
+      
     }
   },
   "registrationAddress": {

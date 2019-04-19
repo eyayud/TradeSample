@@ -1,0 +1,15 @@
+mat-card-header{
+    border-radius: 3px;
+    top: -42px;
+    padding: 8px;
+    background: linear-gradient(60deg, #349f92, #13786b);
+    margin: 0 15px;
+    position: relative;
+    z-index: 3!important;
+    box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px #13786b;
+}
+mat-card-header,mat-card-title,  mat-card-subtitle{
+    color: #fff;
+}
+
+

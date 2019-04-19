@@ -12,13 +12,15 @@ import {AccountService} from 'src/@custor/services/security/account.service';
 import {AccountEndpoint} from 'src/@custor/services/security/account-endpoint.service';
 import { LocalStoreManager } from 'src/@custor/services/storeManager.service';
 import { AuthService } from 'src/@custor/services/security/auth.service';
+import {ProgressBarComponent} from '../../@custor/components/progress-bar/progress-bar.component';
 
 export const routes = [
       {
             path: '',
             component: MainComponent, children: [
                 { path: 'dashboard', loadChildren: './dashboard/dashboard.module#DashboardModule'},
-                { path: 'customer', loadChildren: './customer/customer.module#CustomerModule'}
+                { path: 'customer', loadChildren: './customer/customer.module#CustomerModule'},
+                { path :'register', loadChildren:'./register/register.module#RegisterModule'}
             ]
     }
   ];
@@ -28,6 +30,7 @@ export const routes = [
   declarations: [
     // GroupByPipe,
     MainComponent,
+    ProgressBarComponent
    ],
   imports: [
     HttpClientModule,

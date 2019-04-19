@@ -1,0 +1,134 @@
+ <mat-card>
+   <mat-card-header>
+     <mat-card-title>Service register</mat-card-title>
+   </mat-card-header>
+   <mat-card-content>
+     <form [formGroup]="ProfileForm">
+       <div fxLayout="row wrap" fxLayoutAlign="" fxLayoutGap="1" class="service-registration">
+         <!-- <mat-form-field>
+           <mat-label>የአገልግሎት አይነት</mat-label>
+           <mat-select formControlName="type">
+             <mat-option value="NewRegistration">
+               <span>New Registration</span>
+             </mat-option>
+           </mat-select>
+         </mat-form-field> -->
+         <!-- <mat-form-field>
+           <mat-label>{{'registration.editor.ServiceNumber'  | translate}}</mat-label>
+           <input matInput id="ServiceNumber" formControlName="ServiceNumber" placeholder="Service Number" />
+         </mat-form-field> -->
+         <mat-form-field>
+           <mat-label>{{'registration.editor.CreatedDate'  | translate}}</mat-label>
+           <input 
+              [matDatepicker]="picker"
+              matInput id="CreatedDate" 
+              formControlName="CreatedDate"
+              placeholder="Start Date " />
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+         </mat-form-field>
+         <!-- <mat-form-field>
+           <mat-label>{{'registration.editor.Legal status'  | translate}}</mat-label>
+           <input matInput id="LegalStatus" formControlName="LegalStatus" required placeholder="Legal Status" />
+         </mat-form-field> -->
+         <mat-form-field>
+           <mat-label>{{'registration.editor.Tin' | translate}}</mat-label>
+           <input matInput 
+           id="Tin" 
+           formControlName="Tin"
+           required placeholder="Tin Number" />
+         </mat-form-field>
+       </div>
+
+       <!--- Name In Amharic Form Section-->
+       <div fxLayout="row wrap" fxLayoutAlign="" fxLayoutGap="1" class="profile-registration">
+         <mat-form-field>
+           <mat-label>{{'investors.editor.Name' | translate}}</mat-label>
+           <input matInput id="FirstName" formControlName="FirstName" required placeholder="Name" />
+         </mat-form-field>
+         <mat-form-field>
+           <mat-label>{{'investors.editor.FatherName' | translate}}</mat-label>
+           <input matInput id="FatherName" formControlName="FatherName" required placeholder="Father's Name" />
+         </mat-form-field>
+         <mat-form-field>
+           <mat-label>{{'investors.editor.GrandName' | translate}}</mat-label>
+           <input matInput id="GrandName" formControlName="GrandName" required
+             placeholder="Grand Father's Name" />
+         </mat-form-field>
+         <mat-form-field>
+           <mat-label>{{'investors.editor.MotherName' | translate}}</mat-label>
+           <input matInput id="MotherName" formControlName="MotherName" required placeholder="Mother's Name" />
+         </mat-form-field>
+       </div>
+       <!---END OF Name In Amharic Form Section-->
+       <!--- NAME In ENGLISH SECTION-->
+       <div fxLayout="row wrap" fxLayoutAlign="" fxLayoutGap="1" class="profile-registration">
+         <mat-form-field>
+           <mat-label>{{'investors.editor.FirstNameEng' | translate }}(English)</mat-label>
+           <input matInput id="FirstNameEng" formControlName="FirstNameEng" required placeholder="Name" />
+         </mat-form-field>
+         <mat-form-field>
+           <mat-label> {{'investors.editor.FatherNameEng' | translate }}(English) </mat-label>
+           <input matInput id="FatherNameEng" formControlName="FatherNameEng" required placeholder="Father's Name" />
+         </mat-form-field>
+         <mat-form-field>
+           <mat-label> {{'investors.editor.GrandNameEng' | translate }}(English) </mat-label>
+           <input matInput id="GrandNameEng" formControlName="GrandNameEng" required
+             placeholder="Grand Father's Name" />
+         </mat-form-field>
+         <mat-form-field>
+           <mat-label>{{'investors.editor.MotherNameEng' | translate}} (English) </mat-label>
+           <input matInput id="MotherNameEng" formControlName="MotherNameEng" required placeholder="Mother's Name" />
+         </mat-form-field>
+       </div>
+       <!---END OF Name In NAME In ENGLISH SECTION-->
+       <!--- NAME In ENGLISH SECTION-->
+       <div fxLayout="row wrap" fxLayoutAlign="" fxLayoutGap="1" class="profile-registration">
+        <mat-form-field fxLayoutGap="4em" class="col4">
+          <mat-label>{{'investors.editor.Title' | translate}}</mat-label>
+          <mat-select formControlName="Title">
+            <mat-option *ngFor="let title of titleList" [value]="title.LookupId">
+              {{title.Description}}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+        <mat-form-field fxLayoutGap="4em" class="col4">
+          <mat-label>{{'investors.editor.Gender' | translate}}</mat-label>
+          <mat-select formControlName="Gender" required>
+            <mat-option *ngFor="let gender of genders" [value]="gender.Id">
+              {{gender.Desc}}
+            </mat-option>
+          </mat-select>
+          <!-- <mat-error *ngIf="gender.hasError('required')">
+            {{'common.validation.Required' | translate}}
+          </mat-error> -->
+        </mat-form-field>
+        <mat-form-field fxLayoutGap="4em">
+          <mat-label>{{'investors.editor.Nationality' | translate}}</mat-label>
+          <mat-select formControlName="Nationality">
+            <mat-option *ngFor="let country of countryList" [value]="country.LookupId">
+              <span>{{country.Description}}</span>
+            </mat-option>
+          </mat-select>
+          <!-- <mat-error *ngIf="nationality.hasError('required')">
+            {{'common.validation.Required' | translate}}
+          </mat-error> -->
+        </mat-form-field>
+         <mat-form-field>
+           <mat-label> Birth Date</mat-label>
+           <input matInput
+            id="BirthDate"
+             [matDatepicker]="BirthDate"
+            formControlName="BirthDate" required placeholder="Birth Name" />
+       <mat-datepicker-toggle matSuffix [for]="BirthDate"></mat-datepicker-toggle>
+       <mat-datepicker #BirthDate></mat-datepicker>
+          </mat-form-field>
+       </div>
+       <!---END OF Name In NAME In ENGLISH SECTION-->
+     </form>
+     <mat-card-actions fxLayoutAlign="center end">
+       <button mat-raised-button color="primary" (click)="saveProfile()">Save</button>
+       <button mat-raised-button color="warn" (cancel)="cancel()">Cancel</button>
+     </mat-card-actions>
+   </mat-card-content>
+ </mat-card>

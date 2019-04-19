@@ -13,6 +13,7 @@ import {BusinessListComponent} from './business-list/business-list.component';
 import {LookUpService} from '../../common/services/look-up.service';
 import {AddressService} from '../../common/services/address.service';
 import {ManagerService} from './services/manager.service';
+import { ProfileComponent } from './profile/profile.component';
 import { BusinessCreateComponent } from './business-create/business-create.component';
 import { BusinessApiService } from './services/business.api.service';
 
@@ -21,10 +22,16 @@ export const routes = [
     { path: 'manager-list', component: ManagerListComponent},
     { path: 'manager/:id', component: ManagerComponent},
 <<<<<<< HEAD
+<<<<<<< HEAD
     {path:'createBusinessLicense', component: BusinessCreateComponent}
 =======
     { path: 'business', component: BusinessComponent}
 >>>>>>> 8fd3d75c4ae482f74ff6bdf8204f3f278ae89acd
+=======
+    { path: 'business', component: BusinessComponent},
+    { path: 'profile', component: ProfileComponent},
+    { path:'createBusinessLicense', component: BusinessCreateComponent}
+>>>>>>> 346c5a01eaf9d9ff600afada0b2ede5d3336362c
   ];
 @NgModule({
     declarations: [
@@ -32,6 +39,7 @@ export const routes = [
         ManagerListComponent,
         BusinessComponent,
         BusinessListComponent,
+        ProfileComponent,
         BusinessCreateComponent
     ],
     imports: [

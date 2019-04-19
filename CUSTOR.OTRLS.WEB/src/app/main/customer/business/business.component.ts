@@ -8,6 +8,7 @@ import { Region, Zone, Woreda, Kebele } from 'src/app/common/models/address.mode
 import { ActivatedRoute, Router } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';
 import { AppTranslationService } from 'src/@custor/services/translation.service';
+
 @Component({
   selector: 'app-business',
   templateUrl: './business.component.html',
@@ -19,13 +20,16 @@ export class BusinessComponent implements OnInit {
 
   addressForm: FormGroup;
   personalInfoForm: FormGroup;
-  generalInfo: FormGroup;
+  serviceForm: FormGroup;
+  businessForm: FormGroup;
+  
 
   businessTypes: BusinessDTO[] = [];
   selectedBusiness: any = [];
   currentLang: string = 'am';
   regions: Region[] = [];
   zones: Zone[] = [];
+  hideService : boolean = false;
   filteredZones: Zone[] = [];
   woredas: Woreda[] = [];
   filteredWoredas: Woreda[] = [];
@@ -143,18 +147,12 @@ export class BusinessComponent implements OnInit {
   getKebeleByWoredaId(woredaId: any) {
     this.addressService.getKebelesByWoreda(this.configService.language, woredaId)
       .subscribe(result => {
-        // this.kebeles = result;
         this.filteredKebeles = result;
         console.log(this.filteredKebeles)
       });
   }
 
-  // valueChange(businessId, event) {
-  //   this.selectedBusiness.push(businessId)
-  //   console.log(this.selectedBusiness);
-  //   console.log(event)
 
-  // }
   addBusinessCategory(event, businessId,index){
     if (event.checked){
       this.selectedBusiness.push(businessId)
@@ -177,39 +175,35 @@ export class BusinessComponent implements OnInit {
   }
   createForm() {
     this.addressForm = this.fb.group({
-      houseNumber: ['', [Validators.required]],
+      HouseNumber: ['', [Validators.required]],
       KebeleId: [''],
       ZoneId: [''],
       WoredaId: [''],
       RegionId: [''],
-      phoneNumber: [''],
-      mobileNumber: [''],
-      fax: [''],
-      poBox: [''],
-      email: [''],
+      PhoneNumber: [''],
+      MobileNumber: [''],
+      Fax: [''],
+      PoBox: [''],
+      Email: [''],
       optionalAddress: [''],
     });
-    this.personalInfoForm = this.fb.group({
-      type: [''],
-      noOfShares: [''],
-      licenseRegNumber: [''],
-      passPortNumber: [''],
+   
+    this.serviceForm = this.fb.group({
+      ServiceNumber: ['', [Validators.required, Validators.minLength(10), Validators.maxLength(10)]],
+      StartDate:['',Validators.required],
+      LegalStatus: ['', Validators.required],
+      Prerequisites:[''],
     })
-    this.generalInfo = this.fb.group({
-      tinNumber: ['', [Validators.required, Validators.minLength(10), Validators.maxLength(10)]],
-      paidCapital:['',Validators.required],
-      assignedCapital: ['', Validators.required],
-      totalNoOfShares:[''],
-      shareValue:[''],
+
+    this.businessForm = this.fb.group({
+      PaidCapital:[''],
+      AssignedCapital:[''],
+
     })
+    
   }
-  saveAddress(){
-
+  SaveServiceInfo(){
+    
   }
-  savePersonalInfo(){
-
-  }
-  saveGeneralInfo(){
-
-  }
+  
 }

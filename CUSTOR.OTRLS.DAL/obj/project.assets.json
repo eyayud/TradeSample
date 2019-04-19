@@ -2858,7 +2858,7 @@
       ]
     },
     "System.Linq.Queryable/4.0.1": {
-      "sha512": "2fK+yefBK6bmFhTubbBgNaaWafCGMUzEtRQ5vfNjodNImCCfmKyjysfC5qgOklBsO1qEL6rNCz1ThQ4khCsxnw==",
+      "sha512": "Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
       "type": "package",
       "path": "system.linq.queryable/4.0.1",
       "files": [
@@ -3987,34 +3987,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dawit\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/home/yo/.nuget/packages/": {},
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\CustorProjects\\MOTI\\TradeOnline\\TradeSample\\CUSTOR.OTRLS.DAL\\CUSTOR.OTRLS.Core.csproj",
+      "projectUniqueName": "/home/yo/Desktop/Lab/TradeSample/CUSTOR.OTRLS.DAL/CUSTOR.OTRLS.Core.csproj",
       "projectName": "CUSTOR.OTRLS.Core",
-      "projectPath": "H:\\CustorProjects\\MOTI\\TradeOnline\\TradeSample\\CUSTOR.OTRLS.DAL\\CUSTOR.OTRLS.Core.csproj",
-      "packagesPath": "C:\\Users\\Dawit\\.nuget\\packages\\",
-      "outputPath": "H:\\CustorProjects\\MOTI\\TradeOnline\\TradeSample\\CUSTOR.OTRLS.DAL\\obj\\",
+      "projectPath": "/home/yo/Desktop/Lab/TradeSample/CUSTOR.OTRLS.DAL/CUSTOR.OTRLS.Core.csproj",
+      "packagesPath": "/home/yo/.nuget/packages/",
+      "outputPath": "/home/yo/Desktop/Lab/TradeSample/CUSTOR.OTRLS.DAL/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Dawit\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.2.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/yo/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
-        "C:\\Program Files (x86)\\DevExpress 18.2\\Components\\System\\Components\\Packages": {},
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

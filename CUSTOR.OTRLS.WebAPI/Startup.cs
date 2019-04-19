@@ -16,6 +16,7 @@ using CUSTOR.OTRLS.Core;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
+using Microsoft.OpenApi.Models;
 
 namespace CUSTOR.OTRLS.API
 {
@@ -31,6 +32,13 @@ namespace CUSTOR.OTRLS.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1.0", new Info { Title = "Trade API", Version = "1.0" });
+                c.IncludeXmlComments(System.IO.Path.Combine(System.AppContext.BaseDirectory, "TradeSwagger.xml"));
+            });
+
             services.AddMvc();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
@@ -49,7 +57,7 @@ namespace CUSTOR.OTRLS.API
                    res.NamingStrategy = null;
                }
            });
-            
+
             var connectionString = Configuration["ConnectionStrings:DefaultConnection"];
             var migrationsAssembly = typeof(Startup).GetTypeInfo().Assembly.GetName().Name;
 
@@ -75,7 +83,10 @@ namespace CUSTOR.OTRLS.API
             services.AddScoped<ZoneRepository>();
             services.AddScoped<WoredaRepository>();
             services.AddScoped<KebeleRepository>();
-
+            services.AddScoped<RegistrationRepository>();
+            services.AddScoped<RegistrationCatagoryRepository>();
+            services.AddScoped<MajorDivisionRepository>();
+            services.AddScoped<LegalStatusRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -85,12 +96,43 @@ namespace CUSTOR.OTRLS.API
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            
+
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1.0/swagger.json", "Trade API (V 1.0)");
+            });
+
             //Configure Cors
             app.UseCors("CorsPolicy");
             app.UseMvc();
             app.UseDefaultFiles();
             app.UseStaticFiles();
 
+            
+
         }
+    }
+
+    internal class Info : OpenApiInfo
+    {
+        public string Version { get; set; }
+        public string Title { get; set; }
+        public string Description { get; set; }
+        public string TermsOfService { get; set; }
+        public Contact Contact { get; set; }
+    }
+
+    internal class Contact
+    {
+        public Contact()
+        {
+        }
+
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public string Url { get; set; }
     }
 }

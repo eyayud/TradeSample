@@ -25,3 +25,12 @@ C:/Projects/OTRLS2019/OTRLSV1/CUSTOR.OTRLS.DAL/obj/Debug/netcoreapp2.2/CUSTOR.OT
 /home/yo/Desktop/Lab/TradeSample/CUSTOR.OTRLS.DAL/obj/Debug/netcoreapp2.2/CUSTOR.OTRLS.Core.AssemblyInfo.cs
 /home/yo/Desktop/Lab/TradeSample/CUSTOR.OTRLS.DAL/obj/Debug/netcoreapp2.2/CUSTOR.OTRLS.Core.dll
 /home/yo/Desktop/Lab/TradeSample/CUSTOR.OTRLS.DAL/obj/Debug/netcoreapp2.2/CUSTOR.OTRLS.Core.pdb
+H:\CustorProjects\MOTI\TradeOnline\TradeSample\CUSTOR.OTRLS.DAL\bin\Debug\netcoreapp2.2\CUSTOR.OTRLS.Core.deps.json
+H:\CustorProjects\MOTI\TradeOnline\TradeSample\CUSTOR.OTRLS.DAL\bin\Debug\netcoreapp2.2\CUSTOR.OTRLS.Core.dll
+H:\CustorProjects\MOTI\TradeOnline\TradeSample\CUSTOR.OTRLS.DAL\bin\Debug\netcoreapp2.2\CUSTOR.OTRLS.Core.pdb
+H:\CustorProjects\MOTI\TradeOnline\TradeSample\CUSTOR.OTRLS.DAL\obj\Debug\netcoreapp2.2\CUSTOR.OTRLS.Core.csprojAssemblyReference.cache
+H:\CustorProjects\MOTI\TradeOnline\TradeSample\CUSTOR.OTRLS.DAL\obj\Debug\netcoreapp2.2\CUSTOR.OTRLS.Core.csproj.CoreCompileInputs.cache
+H:\CustorProjects\MOTI\TradeOnline\TradeSample\CUSTOR.OTRLS.DAL\obj\Debug\netcoreapp2.2\CUSTOR.OTRLS.Core.AssemblyInfoInputs.cache
+H:\CustorProjects\MOTI\TradeOnline\TradeSample\CUSTOR.OTRLS.DAL\obj\Debug\netcoreapp2.2\CUSTOR.OTRLS.Core.AssemblyInfo.cs
+H:\CustorProjects\MOTI\TradeOnline\TradeSample\CUSTOR.OTRLS.DAL\obj\Debug\netcoreapp2.2\CUSTOR.OTRLS.Core.dll
+H:\CustorProjects\MOTI\TradeOnline\TradeSample\CUSTOR.OTRLS.DAL\obj\Debug\netcoreapp2.2\CUSTOR.OTRLS.Core.pdb

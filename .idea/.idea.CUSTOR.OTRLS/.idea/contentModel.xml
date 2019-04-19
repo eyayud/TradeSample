@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.Rider2018.3/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2018.3/system/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_CUSTOR.OTRLS.-1799797218.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="CUSTOR.OTRLS.DAL" t="IncludeRecursive">
+        <e p="CUSTOR.OTRLS.Core.csproj" t="IncludeRecursive" />
+        <e p="DataAccessLayer" t="Include">
+          <e p="Address" t="Include">
+            <e p="KebeleRepo.cs" t="Include" />
+            <e p="RegionRepo.cs" t="Include" />
+            <e p="WoredaRepo.cs" t="Include" />
+            <e p="ZoneRepo.cs" t="Include" />
+          </e>
+          <e p="Bussiness" t="Include">
+            <e p="BussinessRepo.cs" t="Include" />
+          </e>
+          <e p="Catagory" t="Include">
+            <e p="DivisionRepo.cs" t="Include" />
+            <e p="GroupRepo.cs" t="Include" />
+            <e p="MajorDivisionRepository.cs" t="Include" />
+            <e p="MajorGroupRepo.cs" t="Include" />
+            <e p="SubGroupRepo.cs" t="Include" />
+          </e>
+          <e p="LookupRepo.cs" t="Include" />
+          <e p="LookupTypeRepo.cs" t="Include" />
+          <e p="ManagerRepo.cs" t="Include" />
+          <e p="Registration" t="Include">
+            <e p="LegalStatusRepository.cs" t="Include" />
+            <e p="RegistrationCatagoryRepository.cs" t="Include" />
+            <e p="RegistrationRepository.cs" t="Include" />
+          </e>
+        </e>
+        <e p="EntityLayer" t="Include">
+          <e p="Address" t="Include">
+            <e p="Address.cs" t="Include" />
+            <e p="Kebele.cs" t="Include" />
+            <e p="Region.cs" t="Include" />
+            <e p="Woreda.cs" t="Include" />
+            <e p="Zone.cs" t="Include" />
+          </e>
+          <e p="Bussiness" t="Include">
+            <e p="Business.cs" t="Include" />
+            <e p="BusinessLicensingGroup.cs" t="Include" />
+            <e p="BussinessDTO.cs" t="Include" />
+            <e p="BussinessHelper.cs" t="Include" />
+          </e>
+          <e p="Catagory" t="Include">
+            <e p="Division.cs" t="Include" />
+            <e p="Group.cs" t="Include" />
+            <e p="MajorDivision.cs" t="Include" />
+            <e p="MajorGroup.cs" t="Include" />
+            <e p="SubGroup.cs" t="Include" />
+          </e>
+          <e p="LookUpType.cs" t="Include" />
+          <e p="Lookup.cs" t="Include" />
+          <e p="Manager" t="Include">
+            <e p="Manager.cs" t="Include" />
+            <e p="ManagerDTO.cs" t="Include" />
+            <e p="ManagerHelper.cs" t="Include" />
+          </e>
+          <e p="Nationality.cs" t="Include" />
+          <e p="Registration" t="Include">
+            <e p="LegalStatus.cs" t="Include" />
+            <e p="Registration.cs" t="Include" />
+            <e p="RegistrationCatagory.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Enum" t="Include">
+          <e p="AddressType.cs" t="Include" />
+        </e>
+        <e p="MOTIOnlineDbContext.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="CUSTOR.OTRLS.Core.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="CUSTOR.OTRLS.WebAPI" t="IncludeRecursive">
+        <e p="CUSTOR.OTRLS.API.csproj" t="IncludeRecursive" />
+        <e p="CUSTOR.OTRLS.API.xml" t="Include" />
+        <e p="Controllers" t="Include">
+          <e p="Business" t="Include">
+            <e p="BussinessController.cs" t="Include" />
+          </e>
+          <e p="Catagory" t="Include">
+            <e p="DivisionController.cs" t="Include" />
+            <e p="GroupController.cs" t="Include" />
+            <e p="MajorDivisionController.cs" t="Include" />
+            <e p="MajorGroupController.cs" t="Include" />
+          </e>
+          <e p="KebeleController.cs" t="Include" />
+          <e p="LookupController.cs" t="Include" />
+          <e p="ManagerController.cs" t="Include" />
+          <e p="RegionController.cs" t="Include" />
+          <e p="Registration" t="Include">
+            <e p="LegalStatusController.cs" t="Include" />
+            <e p="RegistratioinCatagoryController.cs" t="Include" />
+            <e p="RegistrationController.cs" t="Include" />
+          </e>
+          <e p="SubGroupController.cs" t="Include" />
+          <e p="WoredaController.cs" t="Include" />
+          <e p="ZoneController.cs" t="Include" />
+        </e>
+        <e p="ErrorHandler" t="Include">
+          <e p="ApiError.cs" t="Include" />
+          <e p="ApiException.cs" t="Include" />
+          <e p="ApiExceptionFilter.cs" t="Include" />
+          <e p="ValidationErrorCollection.cs" t="Include" />
+          <e p="ValidationErrors.cs" t="Include" />
+        </e>
+        <e p="ModelStateFilter" t="Include">
+          <e p="ModelValidationAttribute.cs" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="CUSTOR.OTRLS.API.deps.json" t="Include" />
+              <e p="CUSTOR.OTRLS.API.dll" t="Include" />
+              <e p="CUSTOR.OTRLS.API.pdb" t="Include" />
+              <e p="CUSTOR.OTRLS.API.runtimeconfig.dev.json" t="Include" />
+              <e p="CUSTOR.OTRLS.API.runtimeconfig.json" t="Include" />
+              <e p="CUSTOR.OTRLS.API.xml" t="Include" />
+              <e p="CUSTOR.OTRLS.Core.dll" t="Include" />
+              <e p="CUSTOR.OTRLS.Core.pdb" t="Include" />
+              <e p="TradeSwagger.xml" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="CUSTOR.OTRLS.API.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="wwwroot" t="Include">
+          <e p="photo" t="Include">
+            <e p="Mgr-2147482647.jpg" t="Include" />
+            <e p="Mgr1.jpg" t="Include" />
+            <e p="Mgr11.jpg" t="Include" />
+            <e p="Mgr12.jpg" t="Include" />
+            <e p="Mgr16.jpg" t="Include" />
+            <e p="Mgr17.jpg" t="Include" />
+            <e p="Mgr22.jpg" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="CUSTOR.OTRLS.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+    <e p="H:\CustorProjects\MOTI\TradeOnline\TradeSample\CUSTOR.OTRLS.WebAPI\bin\Debug\netcoreapp2.2" t="Include">
+      <e p="TradeSwagger.xml" t="Include" />
+    </e>
+  </component>
+</project>

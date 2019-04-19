@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a8e65f27-2541-4a0d-a3d9-84c287796b21" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8200">
+              <caret line="239" column="24" selection-start-line="239" selection-start-column="24" selection-end-line="239" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/.idea.CUSTOR.OTRLS/riderModule.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CUSTOR.OTRLS.WebAPI/appsettings.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CUSTOR.OTRLS.WebAPI/appsettings.Development.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="2" column="73" selection-start-line="2" selection-start-column="73" selection-end-line="2" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CUSTOR.OTRLS.WebAPI/Startup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1548">
+              <caret line="61" column="34" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
+              <folding>
+                <marker date="1555691321863" expanded="false" signature="6:618" ph="..." />
+                <marker date="1555691321863" expanded="true" signature="646:4927" ph="{...}" />
+                <marker date="1555691321863" expanded="true" signature="673:4435" ph="{...}" />
+                <marker date="1555691321863" expanded="true" signature="732:795" ph="{...}" />
+                <marker date="1555691321863" expanded="true" signature="1018:3733" ph="{...}" />
+                <marker date="1555691321863" expanded="true" signature="1069:1301" ph="{...}" />
+                <marker date="1555691321863" expanded="true" signature="1484:1615" ph="{...}" />
+                <marker date="1555691321863" expanded="true" signature="1650:2071" ph="{...}" />
+                <marker date="1555691321863" expanded="true" signature="1912:2058" ph="{...}" />
+                <marker date="1555691321863" expanded="true" signature="2460:2729" ph="{...}" />
+                <marker date="1555691321863" expanded="true" signature="3921:4429" ph="{...}" />
+                <marker date="1555691321863" expanded="true" signature="3968:4045" ph="{...}" />
+                <marker date="1555691321863" expanded="true" signature="4124:4238" ph="{...}" />
+                <marker date="1555691321863" expanded="true" signature="4474:4716" ph="{...}" />
+                <marker date="1555691321863" expanded="true" signature="4744:4925" ph="{...}" />
+                <marker date="1555691321863" expanded="true" signature="4775:4795" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CUSTOR.OTRLS.WEB/src/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-959">
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CUSTOR.OTRLS.WEB/src/app/main/customer/customer.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1008">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/127E718A-C42E-4542-A71B-54CEC3EF156B/93/5108a709/ConfigureBuilder.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1116">
+              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A42AE733-E333-4634-BAE5-ADE86E3A3A7D/29/86db8b81/Thread.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3852">
+              <caret line="111" column="8" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CUSTOR.OTRLS.DAL/EntityLayer/Address/Address.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+              <folding>
+                <marker date="1555681201751" expanded="false" signature="6:47" ph="..." />
+                <marker date="1555681201751" expanded="true" signature="76:1658" ph="{...}" />
+                <marker date="1555681201751" expanded="true" signature="111:1656" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>user_Eyayu</find>
+      <find>migrat</find>
+      <find>vs</find>
+      <find>CUSTOR.OTRLS.WebAPI/.vs/</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>userEyayu</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A42AE733-E333-4634-BAE5-ADE86E3A3A7D/88/e59fa895/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CUSTOR.OTRLS.DAL/MOTIOnlineDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CUSTOR.OTRLS.DAL/Enum/AddressType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0366DF96-A306-4DFB-8E8E-8F21BCA68142/72/63b0b39b/ControllerFactoryProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CUSTOR.OTRLS.DAL/EntityLayer/Nationality.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CUSTOR.OTRLS.WebAPI/Controllers/ManagerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A42AE733-E333-4634-BAE5-ADE86E3A3A7D/73/f3fba36f/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CUSTOR.OTRLS.WebAPI/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CUSTOR.OTRLS.DAL/EntityLayer/Address/Woreda.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CUSTOR.OTRLS.DAL/EntityLayer/Address/Region.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CUSTOR.OTRLS.DAL/EntityLayer/Address/Zone.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CUSTOR.OTRLS.DAL/EntityLayer/Address/Kebele.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CUSTOR.OTRLS.DAL/EntityLayer/Address/Address.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CUSTOR.OTRLS.DAL/EntityLayer/Manager/ManagerHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A42AE733-E333-4634-BAE5-ADE86E3A3A7D/29/86db8b81/Thread.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CUSTOR.OTRLS.DAL/EntityLayer/Manager/ManagerDTO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CUSTOR.OTRLS.DAL/EntityLayer/Manager/Manager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CUSTOR.OTRLS.WebAPI/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/127E718A-C42E-4542-A71B-54CEC3EF156B/93/5108a709/ConfigureBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CUSTOR.OTRLS.DAL/DataAccessLayer/LookupRepo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CUSTOR.OTRLS.DAL/DataAccessLayer/ManagerRepo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CUSTOR.OTRLS.DAL/DataAccessLayer/Address/ZoneRepo.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/CUSTOR.OTRLS.DAL/EntityLayer/ApplicationUser.cs" />
+        <option value="$PROJECT_DIR$/CUSTOR.OTRLS.DAL/Dbseeder.cs" />
+        <option value="$PROJECT_DIR$/CUSTOR.OTRLS.DAL/Enum/UserType.cs" />
+        <option value="$PROJECT_DIR$/CUSTOR.OTRLS.DAL/EntityLayer/ApplicationUserProfile.cs" />
+        <option value="$PROJECT_DIR$/CUSTOR.OTRLS.DAL/EntityLayer/Identification.cs" />
+        <option value="$PROJECT_DIR$/CUSTOR.OTRLS.DAL/EntityLayer/ApplicationUser/ApplicationUser.cs" />
+        <option value="$PROJECT_DIR$/CUSTOR.OTRLS.DAL/EntityLayer/Manager/Manager.cs" />
+        <option value="$PROJECT_DIR$/CUSTOR.OTRLS.DAL/MOTIOnlineDbContext.cs" />
+        <option value="$PROJECT_DIR$/CUSTOR.OTRLS.DAL/DataAccessLayer/Helpers/ApplicationMappingProfile.cs" />
+        <option value="$PROJECT_DIR$/CUSTOR.OTRLS.DAL/DataAccessLayer/ApplicationUserProfileRepo.cs" />
+        <option value="$PROJECT_DIR$/CUSTOR.OTRLS.DAL/EntityLayer/ApplicationUser/ApplicationUserProfile.cs" />
+        <option value="$PROJECT_DIR$/CUSTOR.OTRLS.WebAPI/Startup.cs" />
+        <option value="$PROJECT_DIR$/CUSTOR.OTRLS.WebAPI/Controllers/ApplicationUserProfileController.cs" />
+        <option value="$PROJECT_DIR$/CUSTOR.OTRLS.DAL/EntityLayer/Address/Region.cs" />
+        <option value="$PROJECT_DIR$/CUSTOR.OTRLS.DAL/DbSeeder.cs" />
+        <option value="$PROJECT_DIR$/CUSTOR.OTRLS.DAL/EntityLayer/Address/Address.cs" />
+        <option value="$PROJECT_DIR$/CUSTOR.OTRLS.DAL/DataAccessLayer/ManagerRepo.cs" />
+        <option value="$PROJECT_DIR$/CUSTOR.OTRLS.WEB/src/app/main/customer/customer.module.ts" />
+        <option value="$PROJECT_DIR$/CUSTOR.OTRLS.WebAPI/appsettings.json" />
+        <option value="$PROJECT_DIR$/CUSTOR.OTRLS.WebAPI/appsettings.Development.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/.idea/.idea.CUSTOR.OTRLS/riderModule.iml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1979" />
+    <option name="y" value="53" />
+    <option name="width" value="1861" />
+    <option name="height" value="2107" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="FileSystemExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="TradeSample" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="TradeSample" type="34e6ba20:FileSystemExplorerNode" />
+              <item name=".idea" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="TradeSample" type="34e6ba20:FileSystemExplorerNode" />
+              <item name=".idea" type="34e6ba20:FileSystemExplorerNode" />
+              <item name=".idea.CUSTOR.OTRLS" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="TradeSample" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="CUSTOR.OTRLS.WebAPI" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="TradeSample" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="CUSTOR.OTRLS.WebAPI" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="bin" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="CUSTOR.OTRLS" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RESTFul-NET.CORE-NG" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="CUSTOR.OTRLS.API" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/CUSTOR.OTRLS.WebAPI/CUSTOR.OTRLS.API.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.2" />
+      <option name="LAUNCH_PROFILE_NAME" value="CUSTOR.OTRLS.API" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8e65f27-2541-4a0d-a3d9-84c287796b21" name="Default Changelist" comment="" />
+      <created>1555570300932</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555570300932</updated>
+      <workItem from="1555570304615" duration="6349000" />
+      <workItem from="1555589114691" duration="2039000" />
+      <workItem from="1555610906962" duration="9620000" />
+      <workItem from="1555657318622" duration="13896000" />
+      <workItem from="1555676413430" duration="5473000" />
+      <workItem from="1555685216452" duration="5915000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="43292000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="118" y="53" width="3722" height="2107" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30022013" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32968834" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39967194" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32968834" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="REST Client" order="12" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="13" visible="true" weight="0.32859486" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="15" weight="0.32968834" />
+      <window_info anchor="bottom" id="TypeScript" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/CUSTOR.OTRLS.WebAPI/Controllers/ManagerController.cs</url>
+          <line>74</line>
+          <properties documentPath="$PROJECT_DIR$/CUSTOR.OTRLS.WebAPI/Controllers/ManagerController.cs" initialLine="74">
+            <startOffsets>
+              <option value="2423" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2475" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CUSTOR.OTRLS.DAL/DataAccessLayer/SectorRepo.cs" />
+    <entry file="file://$PROJECT_DIR$/CUSTOR.OTRLS.DAL/Enum/UserType.cs" />
+    <entry file="file://$PROJECT_DIR$/CUSTOR.OTRLS.DAL/EntityLayer/Nationality.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <marker date="1553916665040" expanded="false" signature="6:47" ph="..." />
+            <marker date="1553916665040" expanded="true" signature="76:860" ph="{...}" />
+            <marker date="1553916665040" expanded="true" signature="115:858" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CUSTOR.OTRLS.WEB/src/app/main/customer/business-create/business-create.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="66" column="44" lean-forward="true" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CUSTOR.OTRLS.DAL/EntityLayer/Address/Kebele.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <marker date="1554249927241" expanded="false" signature="6:92" ph="..." />
+            <marker date="1554249927241" expanded="true" signature="121:1269" ph="{...}" />
+            <marker date="1554249927241" expanded="true" signature="155:950" ph="{...}" />
+            <marker date="1554249927241" expanded="true" signature="185:251" ph="{...}" />
+            <marker date="1554249927241" expanded="true" signature="991:1267" ph="{...}" />
+            <marker date="1554249927241" expanded="true" signature="1030:1050" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CUSTOR.OTRLS.DAL/EntityLayer/Address/Woreda.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <marker date="1554250081612" expanded="false" signature="6:92" ph="..." />
+            <marker date="1554250081612" expanded="true" signature="121:1371" ph="{...}" />
+            <marker date="1554250081612" expanded="true" signature="155:1054" ph="{...}" />
+            <marker date="1554250081612" expanded="true" signature="185:295" ph="{...}" />
+            <marker date="1554250081612" expanded="true" signature="1095:1369" ph="{...}" />
+            <marker date="1554250081612" expanded="true" signature="1134:1154" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CUSTOR.OTRLS.DAL/EntityLayer/Address/Zone.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <marker date="1554250081590" expanded="false" signature="6:92" ph="..." />
+            <marker date="1554250081590" expanded="true" signature="121:1367" ph="{...}" />
+            <marker date="1554250081590" expanded="true" signature="153:1054" ph="{...}" />
+            <marker date="1554250081590" expanded="true" signature="181:291" ph="{...}" />
+            <marker date="1554250081590" expanded="true" signature="1093:1365" ph="{...}" />
+            <marker date="1554250081590" expanded="true" signature="1130:1150" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CUSTOR.OTRLS.DAL/EntityLayer/Identification.cs" />
+    <entry file="file://$PROJECT_DIR$/CUSTOR.OTRLS.WebAPI/Migrations/20190419085715_RemoveTyprFromApplicationUser.cs" />
+    <entry file="file://$PROJECT_DIR$/CUSTOR.OTRLS.DAL/DataAccessLayer/LookupRepo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <marker date="1554402990265" expanded="false" signature="6:152" ph="..." />
+            <marker date="1554402990265" expanded="true" signature="181:3055" ph="{...}" />
+            <marker date="1554402990265" expanded="true" signature="217:3053" ph="{...}" />
+            <marker date="1554402990265" expanded="true" signature="312:364" ph="{...}" />
+            <marker date="1554402990265" expanded="true" signature="419:616" ph="{...}" />
+            <marker date="1554402990265" expanded="true" signature="725:1120" ph="{...}" />
+            <marker date="1554402990265" expanded="true" signature="913:1061" ph="{...}" />
+            <marker date="1554402990265" expanded="true" signature="1204:1546" ph="{...}" />
+            <marker date="1554402990265" expanded="true" signature="1316:1502" ph="{...}" />
+            <marker date="1554402990265" expanded="true" signature="1627:2031" ph="{...}" />
+            <marker date="1554402990265" expanded="true" signature="1739:1925" ph="{...}" />
+            <marker date="1554402990265" expanded="true" signature="2093:2332" ph="{...}" />
+            <marker date="1554402990265" expanded="true" signature="2416:2664" ph="{...}" />
+            <marker date="1554402990265" expanded="true" signature="2718:3047" ph="{...}" />
+            <marker date="1554402990265" expanded="true" signature="2877:2968" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CUSTOR.OTRLS.DAL/EntityLayer/Manager/ManagerHelper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="78" column="27" lean-forward="true" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
+          <folding>
+            <marker date="1554674927010" expanded="false" signature="7:67" ph="..." />
+            <marker date="1554674927010" expanded="true" signature="96:4319" ph="{...}" />
+            <marker date="1554674927010" expanded="true" signature="136:4317" ph="{...}" />
+            <marker date="1554674927010" expanded="true" signature="211:1740" ph="{...}" />
+            <marker date="1554674927010" expanded="true" signature="237:1588" ph="{...}" />
+            <marker date="1554674927010" expanded="true" signature="303:1573" ph="{...}" />
+            <marker date="1554674927010" expanded="true" signature="325:453" ph="/* ManagerId = (managerDTO.ManagerId &gt; 0) ? 0 : managerDTO.ManagerId, ... */" />
+            <marker date="1554674927010" expanded="true" signature="1621:1717" ph="{...}" />
+            <marker date="1554674927010" expanded="true" signature="1809:2789" ph="{...}" />
+            <marker date="1554674927010" expanded="true" signature="1863:2778" ph="{...}" />
+            <marker date="1554674927010" expanded="true" signature="2862:4310" ph="{...}" />
+            <marker date="1554674927010" expanded="true" signature="2919:4299" ph="{...}" />
+            <marker date="1554674927010" expanded="true" signature="3033:3116" ph="/* FatherNameSort = string.Empty, ... */" />
+            <marker date="1554674927010" expanded="true" signature="3225:3306" ph="/* FirstNameSort = string.Empty, ... */" />
+            <marker date="1554674927010" expanded="true" signature="3452:3533" ph="/* GrandNameSort = string.Empty, ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CUSTOR.OTRLS.DAL/DataAccessLayer/Helpers/ApplicationMappingProfile.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0366DF96-A306-4DFB-8E8E-8F21BCA68142/72/63b0b39b/ControllerFactoryProvider.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A42AE733-E333-4634-BAE5-ADE86E3A3A7D/88/e59fa895/ExecutionContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="143" column="6" selection-start-line="143" selection-start-column="6" selection-end-line="143" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CUSTOR.OTRLS.WebAPI/Controllers/ManagerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1237">
+          <caret line="74" column="12" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
+          <folding>
+            <marker date="1554502133660" expanded="false" signature="6:306" ph="..." />
+            <marker date="1554502133660" expanded="true" signature="534:2494" ph="{...}" />
+            <marker date="1554502133660" expanded="true" signature="729:810" ph="{...}" />
+            <marker date="1554502133660" expanded="true" signature="902:975" ph="{...}" />
+            <marker date="1554502133660" expanded="true" signature="1078:2259" ph="{...}" />
+            <marker date="1554502133660" expanded="true" signature="1140:1233" ph="{...}" />
+            <marker date="1554502133660" expanded="true" signature="1266:1346" ph="{...}" />
+            <marker date="1554502133660" expanded="true" signature="1407:2225" ph="{...}" />
+            <marker date="1554502133660" expanded="true" signature="1901:2210" ph="{...}" />
+            <marker date="1554502133660" expanded="true" signature="1986:2192" ph="{...}" />
+            <marker date="1554502133660" expanded="true" signature="2400:2488" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CUSTOR.OTRLS.DAL/EntityLayer/Manager/ManagerDTO.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding>
+            <marker date="1554672033505" expanded="false" signature="6:163" ph="..." />
+            <marker date="1554672033505" expanded="true" signature="192:1907" ph="{...}" />
+            <marker date="1554672033505" expanded="true" signature="230:1665" ph="{...}" />
+            <marker date="1554672033505" expanded="true" signature="264:285" ph="{...}" />
+            <marker date="1554672033505" expanded="true" signature="1705:1905" ph="{...}" />
+            <marker date="1554672033505" expanded="true" signature="1743:1763" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CUSTOR.OTRLS.DAL/DataAccessLayer/ApplicationUserProfileRepo.cs" />
+    <entry file="file://$PROJECT_DIR$/CUSTOR.OTRLS.WebAPI/Controllers/ApplicationUserProfileController.cs" />
+    <entry file="file://$PROJECT_DIR$/CUSTOR.OTRLS.DAL/DataAccessLayer/Address/ZoneRepo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1944">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <marker date="1554494108165" expanded="false" signature="6:134" ph="..." />
+            <marker date="1554494108165" expanded="true" signature="163:2346" ph="{...}" />
+            <marker date="1554494108165" expanded="true" signature="199:2344" ph="{...}" />
+            <marker date="1554494108165" expanded="true" signature="292:344" ph="{...}" />
+            <marker date="1554494108165" expanded="true" signature="403:653" ph="{...}" />
+            <marker date="1554494108165" expanded="true" signature="734:1104" ph="{...}" />
+            <marker date="1554494108165" expanded="true" signature="903:1047" ph="{...}" />
+            <marker date="1554494108165" expanded="true" signature="1204:1636" ph="{...}" />
+            <marker date="1554494108165" expanded="true" signature="1435:1579" ph="{...}" />
+            <marker date="1554494108165" expanded="true" signature="1677:1928" ph="{...}" />
+            <marker date="1554494108165" expanded="true" signature="2010:2338" ph="{...}" />
+            <marker date="1554494108165" expanded="true" signature="2115:2288" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CUSTOR.OTRLS.DAL/Enum/AddressType.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <marker date="1553916668619" expanded="false" signature="6:66" ph="..." />
+            <marker date="1553916668619" expanded="true" signature="95:207" ph="{...}" />
+            <marker date="1553916668619" expanded="true" signature="125:205" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CUSTOR.OTRLS.WebAPI/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <marker date="1553876731854" expanded="false" signature="6:255" ph="..." />
+            <marker date="1553876731854" expanded="true" signature="283:610" ph="{...}" />
+            <marker date="1553876731854" expanded="true" signature="310:608" ph="{...}" />
+            <marker date="1553876731854" expanded="true" signature="363:437" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CUSTOR.OTRLS.DAL/MOTIOnlineDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding>
+            <marker date="1555682129769" expanded="false" signature="6:97" ph="..." />
+            <marker date="1555682129769" expanded="true" signature="236:16816" ph="{...}" />
+            <marker date="1555682129769" expanded="true" signature="315:16814" ph="{...}" />
+            <marker date="1555682129769" expanded="true" signature="1473:16808" ph="{...}" />
+            <marker date="1555682129769" expanded="true" signature="1609:3909" ph="{...}" />
+            <marker date="1555682129769" expanded="true" signature="3962:5370" ph="{...}" />
+            <marker date="1555682129769" expanded="true" signature="5427:6578" ph="{...}" />
+            <marker date="1555682129769" expanded="true" signature="6631:7993" ph="{...}" />
+            <marker date="1555682129769" expanded="true" signature="8047:10089" ph="{...}" />
+            <marker date="1555682129769" expanded="true" signature="10147:11298" ph="{...}" />
+            <marker date="1555682129769" expanded="true" signature="11351:12359" ph="{...}" />
+            <marker date="1555682129769" expanded="true" signature="12412:13790" ph="{...}" />
+            <marker date="1555682129769" expanded="true" signature="13841:15165" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CUSTOR.OTRLS.DAL/EntityLayer/Address/Region.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <marker date="1554250081569" expanded="false" signature="6:92" ph="..." />
+            <marker date="1554250081569" expanded="true" signature="121:1173" ph="{...}" />
+            <marker date="1554250081569" expanded="true" signature="155:956" ph="{...}" />
+            <marker date="1554250081569" expanded="true" signature="185:291" ph="{...}" />
+            <marker date="1554250081569" expanded="true" signature="997:1171" ph="{...}" />
+            <marker date="1554250081569" expanded="true" signature="1036:1056" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A42AE733-E333-4634-BAE5-ADE86E3A3A7D/73/f3fba36f/ExceptionDispatchInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2070">
+          <caret line="91" column="6" selection-start-line="91" selection-start-column="6" selection-end-line="91" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CUSTOR.OTRLS.DAL/EntityLayer/ApplicationUser/ApplicationUserProfile.cs" />
+    <entry file="file://$PROJECT_DIR$/CUSTOR.OTRLS.DAL/EntityLayer/ApplicationUser/ApplicationUser.cs" />
+    <entry file="file://$PROJECT_DIR$/CUSTOR.OTRLS.DAL/DbSeeder.cs" />
+    <entry file="file://$PROJECT_DIR$/CUSTOR.OTRLS.DAL/EntityLayer/Manager/Manager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+          <folding>
+            <marker date="1555666026747" expanded="false" signature="6:144" ph="..." />
+            <marker date="1555666026747" expanded="true" signature="173:1706" ph="{...}" />
+            <marker date="1555666026747" expanded="true" signature="208:1704" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CUSTOR.OTRLS.DAL/DataAccessLayer/ManagerRepo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding>
+            <marker date="1555681201751" expanded="false" signature="6:152" ph="..." />
+            <marker date="1555681201751" expanded="true" signature="181:3764" ph="{...}" />
+            <marker date="1555681201751" expanded="true" signature="218:3762" ph="{...}" />
+            <marker date="1555681201751" expanded="true" signature="315:367" ph="{...}" />
+            <marker date="1555681201751" expanded="true" signature="431:1129" ph="{...}" />
+            <marker date="1555681201751" expanded="true" signature="457:939" ph="{...}" />
+            <marker date="1555681201751" expanded="true" signature="972:1107" ph="{...}" />
+            <marker date="1555681201751" expanded="true" signature="1205:3154" ph="{...}" />
+            <marker date="1555681201751" expanded="true" signature="1625:3144" ph="{...}" />
+            <marker date="1555681201751" expanded="true" signature="1659:2804" ph="{...}" />
+            <marker date="1555681201751" expanded="true" signature="1760:1970" ph="{...}" />
+            <marker date="1555681201751" expanded="true" signature="1995:2136" ph="{...}" />
+            <marker date="1555681201751" expanded="true" signature="2352:2569" ph="{...}" />
+            <marker date="1555681201751" expanded="true" signature="2594:2786" ph="{...}" />
+            <marker date="1555681201751" expanded="true" signature="2841:2970" ph="{...}" />
+            <marker date="1555681201751" expanded="true" signature="3241:3750" ph="{...}" />
+            <marker date="1555681201751" expanded="true" signature="3448:3707" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/127E718A-C42E-4542-A71B-54CEC3EF156B/93/5108a709/ConfigureBuilder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1116">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A42AE733-E333-4634-BAE5-ADE86E3A3A7D/29/86db8b81/Thread.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3852">
+          <caret line="111" column="8" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CUSTOR.OTRLS.DAL/EntityLayer/Address/Address.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <marker date="1555681201751" expanded="false" signature="6:47" ph="..." />
+            <marker date="1555681201751" expanded="true" signature="76:1658" ph="{...}" />
+            <marker date="1555681201751" expanded="true" signature="111:1656" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CUSTOR.OTRLS.WebAPI/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1548">
+          <caret line="61" column="34" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
+          <folding>
+            <marker date="1555691321863" expanded="false" signature="6:618" ph="..." />
+            <marker date="1555691321863" expanded="true" signature="646:4927" ph="{...}" />
+            <marker date="1555691321863" expanded="true" signature="673:4435" ph="{...}" />
+            <marker date="1555691321863" expanded="true" signature="732:795" ph="{...}" />
+            <marker date="1555691321863" expanded="true" signature="1018:3733" ph="{...}" />
+            <marker date="1555691321863" expanded="true" signature="1069:1301" ph="{...}" />
+            <marker date="1555691321863" expanded="true" signature="1484:1615" ph="{...}" />
+            <marker date="1555691321863" expanded="true" signature="1650:2071" ph="{...}" />
+            <marker date="1555691321863" expanded="true" signature="1912:2058" ph="{...}" />
+            <marker date="1555691321863" expanded="true" signature="2460:2729" ph="{...}" />
+            <marker date="1555691321863" expanded="true" signature="3921:4429" ph="{...}" />
+            <marker date="1555691321863" expanded="true" signature="3968:4045" ph="{...}" />
+            <marker date="1555691321863" expanded="true" signature="4124:4238" ph="{...}" />
+            <marker date="1555691321863" expanded="true" signature="4474:4716" ph="{...}" />
+            <marker date="1555691321863" expanded="true" signature="4744:4925" ph="{...}" />
+            <marker date="1555691321863" expanded="true" signature="4775:4795" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CUSTOR.OTRLS.WEB/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-959">
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CUSTOR.OTRLS.WEB/src/app/main/customer/customer.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CUSTOR.OTRLS.WebAPI/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CUSTOR.OTRLS.WebAPI/appsettings.Development.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="2" column="73" selection-start-line="2" selection-start-column="73" selection-end-line="2" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8200">
+          <caret line="239" column="24" selection-start-line="239" selection-start-column="24" selection-end-line="239" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/.idea.CUSTOR.OTRLS/riderModule.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

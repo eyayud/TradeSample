@@ -19,10 +19,14 @@ x64/
 x86/
 build/
 bld/
-bin/
-Bin/
-obj/
-Obj/
+CUSTOR.OTRLS.WebAPI/bin/
+CUSTOR.OTRLS.DAL/bin/
+CUSTOR.OTRLS.WebAPI/Bin/
+CUSTOR.OTRLS.WebDAL/Bin/
+CUSTOR.OTRLS.WebAPI/obj/
+CUSTOR.OTRLS.DAL/obj/
+CUSTOR.OTRLS.WebAPI/Obj/
+CUSTOR.OTRLS.DAL/Obj/
 
 # Visual Studio 2015 cache/options directory
 .vs/
@@ -231,3 +235,5 @@ _Pvt_Extensions
 # FAKE - F# Make
 .fake/
 CUSTOR.OTRLS.WEB/node_modules
+.idea/
+.vscode/
